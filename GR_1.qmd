@@ -1,0 +1,38 @@
+---
+title: "Glance Reading"
+format: html
+---
+
+# Data reading
+
+```{r}
+library(tidyverse)
+
+csv_files <- dir("data", pattern = "*.csv", full.names = T, recursive = T)
+
+read_gr <- function(f) {
+  read_csv(f) |> 
+    filter(!is.na(xPos)) |> 
+    select(xPos, stimulusSet, whichImage, thisN, blockNumber, direction, angle, stimulus, response, correct, participant) |> 
+    mutate(blockNumber = as.factor(blockNumber))
+    
+}
+
+D_0 <- csv_files |> map_df(read_gr)
+
+
+```
+
+```{r}
+D_0 |> 
+  group_by(participant, angle, blockNumber) |>
+  summarize(p_correct = mean(correct),
+            n_Obs = n()) |> 
+  ungroup() |> 
+  ggplot(aes(x = angle, color = blockNumber, y = n_Obs )) +
+  facet_wrap(~participant) +
+  geom_point() +
+  geom_line()
+  
+```
+

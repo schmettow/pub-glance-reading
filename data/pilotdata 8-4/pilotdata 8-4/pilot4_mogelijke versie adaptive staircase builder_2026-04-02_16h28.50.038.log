@@ -1,0 +1,2121 @@
+20.8746 	INFO 	Loaded monitor calibration from ['2026_04_02 14:02']
+20.9760 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+21.5246 	INFO 	Using renderer 'NVIDIA GeForce RTX 3060/PCIe/SSE2' for graphics
+21.5246 	INFO 	OpenGL version supported by driver is 4..
+21.5517 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023946F82CB0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023946F82C50>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000239470547F0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='cm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.5518 	EXP 	window1: backgroundImage = ''
+21.5518 	EXP 	window1: backgroundFit = 'none'
+21.7948 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+21.7949 	EXP 	window1: recordFrameIntervals = False
+21.9414 	EXP 	window1: recordFrameIntervals = True
+23.6073 	EXP 	window1: recordFrameIntervals = False
+23.6073 	EXP 	Screen (1) actual frame rate measured at 59.98Hz
+23.6536 	INFO 	keyboard.Keyboard is using ptb backend.
+23.6537 	EXP 	mogelijke versie adaptive staircase builder: status = STARTED
+23.7896 	EXP 	Created introinstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(2.0), italic=False, languageStyle='LTR', name='introinstructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='cm', win=Window(...), wrapWidth=30.0)
+23.7938 	EXP 	Created middle_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='middle_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([16., 16.]), texRes=128.0, units='cm', win=Window(...))
+23.7970 	EXP 	Created left_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='left_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([16., 16.]), texRes=128.0, units='cm', win=Window(...))
+23.8005 	EXP 	Created right_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='right_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([16., 16.]), texRes=128.0, units='cm', win=Window(...))
+0.0584 	INFO 	Keyboard events cleared
+0.0583 	EXP 	introinstructions: autoDraw = True
+4.1429 	DATA 	Mouse: Left button down, pos=(766,601)
+4.3074 	DATA 	Mouse:  Left button up, pos=(771,609)
+54.0565 	DATA 	Mouse: Left button down, pos=(1,756)
+54.2236 	DATA 	Mouse:  Left button up, pos=(2,757)
+57.9893 	EXP 	Device response: <KeyPress from None: t=57.98121700000047, value=space, duration=None>
+57.9949 	EXP 	Imported blocks_positions.csv as conditions, 3 conditions, 3 params
+57.9950 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'xPos': np.float64(29.1), 'stimulusSet': 'ecc10pos', 'whichImage': 'left', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+58.1733 	EXP 	Device response: <KeyPress from None: t=57.98121700000047, value=space, duration=0.13604149999991932>
+58.1735 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+58.2816 	DATA 	Keypress: space
+58.2900 	INFO 	Keyboard events cleared
+58.2899 	EXP 	introinstructions: autoDraw = False
+58.2899 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+58.2899 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+58.2899 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+58.2899 	EXP 	middle_image: autoDraw = True
+58.2899 	EXP 	right_image: autoDraw = True
+59.1724 	EXP 	left_image: autoDraw = True
+61.2228 	EXP 	Device response: <KeyPress from None: t=61.221244399999705, value=j, duration=None>
+61.2232 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+61.3149 	EXP 	Device response: <KeyPress from None: t=61.221244399999705, value=j, duration=0.0879785000015545>
+61.3161 	DATA 	Keypress: j
+61.3272 	INFO 	Keyboard events cleared
+61.3272 	EXP 	middle_image: autoDraw = False
+61.3272 	EXP 	left_image: autoDraw = False
+61.3272 	EXP 	right_image: autoDraw = False
+61.3272 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+61.3272 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+61.3272 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+61.3272 	EXP 	middle_image: autoDraw = True
+61.3272 	EXP 	right_image: autoDraw = True
+62.2224 	EXP 	left_image: autoDraw = True
+78.1224 	EXP 	Device response: <KeyPress from None: t=78.10915540000133, value=f, duration=None>
+78.1232 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+78.2140 	EXP 	Device response: <KeyPress from None: t=78.10915540000133, value=f, duration=0.06401449999975739>
+78.2153 	DATA 	Keypress: f
+78.2242 	INFO 	Keyboard events cleared
+78.2241 	EXP 	middle_image: autoDraw = False
+78.2241 	EXP 	left_image: autoDraw = False
+78.2241 	EXP 	right_image: autoDraw = False
+78.2241 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+78.2241 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+78.2241 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+78.2241 	EXP 	middle_image: autoDraw = True
+78.2241 	EXP 	right_image: autoDraw = True
+79.1390 	EXP 	left_image: autoDraw = True
+83.0389 	EXP 	Device response: <KeyPress from None: t=83.03708180000103, value=j, duration=None>
+83.0393 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+83.1277 	EXP 	Device response: <KeyPress from None: t=83.03708180000103, value=j, duration=0.07201089999944088>
+83.1295 	DATA 	Keypress: j
+83.1378 	INFO 	Keyboard events cleared
+83.1377 	EXP 	middle_image: autoDraw = False
+83.1377 	EXP 	left_image: autoDraw = False
+83.1377 	EXP 	right_image: autoDraw = False
+83.1377 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+83.1377 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+83.1377 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+83.1377 	EXP 	middle_image: autoDraw = True
+83.1377 	EXP 	right_image: autoDraw = True
+84.0386 	EXP 	left_image: autoDraw = True
+87.0557 	EXP 	Device response: <KeyPress from None: t=87.05306660000133, value=f, duration=None>
+87.0562 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+87.1448 	EXP 	Device response: <KeyPress from None: t=87.05306660000133, value=f, duration=0.07206469999982801>
+87.1460 	DATA 	Keypress: f
+87.1562 	INFO 	Keyboard events cleared
+87.1561 	EXP 	middle_image: autoDraw = False
+87.1561 	EXP 	left_image: autoDraw = False
+87.1561 	EXP 	right_image: autoDraw = False
+87.1561 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+87.1561 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+87.1561 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+87.1561 	EXP 	middle_image: autoDraw = True
+87.1561 	EXP 	right_image: autoDraw = True
+88.0553 	EXP 	left_image: autoDraw = True
+93.5223 	EXP 	Device response: <KeyPress from None: t=93.51712750000115, value=j, duration=None>
+93.5228 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+93.6236 	EXP 	Device response: <KeyPress from None: t=93.51712750000115, value=j, duration=0.055924799999047536>
+93.6249 	DATA 	Keypress: j
+93.6338 	INFO 	Keyboard events cleared
+93.6338 	EXP 	middle_image: autoDraw = False
+93.6338 	EXP 	left_image: autoDraw = False
+93.6338 	EXP 	right_image: autoDraw = False
+93.6338 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+93.6338 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+93.6338 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+93.6338 	EXP 	middle_image: autoDraw = True
+93.6338 	EXP 	right_image: autoDraw = True
+94.5220 	EXP 	left_image: autoDraw = True
+101.4053 	EXP 	Device response: <KeyPress from None: t=101.39706450000085, value=f, duration=None>
+101.4057 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+101.5053 	EXP 	Device response: <KeyPress from None: t=101.39706450000085, value=f, duration=0.06409919999896374>
+101.5070 	DATA 	Keypress: f
+101.5150 	INFO 	Keyboard events cleared
+101.5149 	EXP 	middle_image: autoDraw = False
+101.5149 	EXP 	left_image: autoDraw = False
+101.5149 	EXP 	right_image: autoDraw = False
+101.5149 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_14.png'
+101.5149 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_14.png'
+101.5149 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_14.png'
+101.5149 	EXP 	middle_image: autoDraw = True
+101.5149 	EXP 	right_image: autoDraw = True
+102.4051 	EXP 	left_image: autoDraw = True
+109.9052 	EXP 	Device response: <KeyPress from None: t=109.89306130000114, value=j, duration=None>
+109.9056 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+109.9932 	EXP 	Device response: <KeyPress from None: t=109.89306130000114, value=j, duration=0.07200670000020182>
+109.9943 	DATA 	Keypress: j
+110.0038 	INFO 	Keyboard events cleared
+110.0037 	EXP 	middle_image: autoDraw = False
+110.0037 	EXP 	left_image: autoDraw = False
+110.0037 	EXP 	right_image: autoDraw = False
+110.0037 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+110.0037 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+110.0037 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+110.0037 	EXP 	middle_image: autoDraw = True
+110.0037 	EXP 	right_image: autoDraw = True
+110.9049 	EXP 	left_image: autoDraw = True
+117.0219 	EXP 	Device response: <KeyPress from None: t=117.01320830000077, value=f, duration=None>
+117.0224 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+117.1128 	EXP 	Device response: <KeyPress from None: t=117.01320830000077, value=f, duration=0.09588729999995849>
+117.1138 	DATA 	Keypress: f
+117.1245 	INFO 	Keyboard events cleared
+117.1245 	EXP 	middle_image: autoDraw = False
+117.1245 	EXP 	left_image: autoDraw = False
+117.1245 	EXP 	right_image: autoDraw = False
+117.1245 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+117.1245 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+117.1245 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+117.1245 	EXP 	middle_image: autoDraw = True
+117.1245 	EXP 	right_image: autoDraw = True
+118.0214 	EXP 	left_image: autoDraw = True
+124.7384 	EXP 	Device response: <KeyPress from None: t=124.73312869999972, value=j, duration=None>
+124.7387 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+124.8404 	DATA 	Keypress: j
+124.8488 	INFO 	Keyboard events cleared
+124.8487 	EXP 	middle_image: autoDraw = False
+124.8487 	EXP 	left_image: autoDraw = False
+124.8487 	EXP 	right_image: autoDraw = False
+124.8487 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+124.8487 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+124.8487 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+124.8487 	EXP 	middle_image: autoDraw = True
+124.8487 	EXP 	right_image: autoDraw = True
+125.7381 	EXP 	left_image: autoDraw = True
+135.7715 	EXP 	Device response: <KeyPress from None: t=135.7570582999997, value=j, duration=None>
+135.7718 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+135.8697 	EXP 	Device response: <KeyPress from None: t=124.73312869999972, value=j, duration=11.096093400001337>
+135.8710 	DATA 	Keypress: j
+135.8824 	INFO 	Keyboard events cleared
+135.8823 	EXP 	middle_image: autoDraw = False
+135.8823 	EXP 	left_image: autoDraw = False
+135.8823 	EXP 	right_image: autoDraw = False
+135.8823 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+135.8823 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+135.8823 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+135.8823 	EXP 	middle_image: autoDraw = True
+135.8823 	EXP 	right_image: autoDraw = True
+136.7718 	EXP 	left_image: autoDraw = True
+144.4880 	EXP 	Device response: <KeyPress from None: t=144.48492799999985, value=f, duration=None>
+144.4883 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+144.5779 	EXP 	Device response: <KeyPress from None: t=144.48492799999985, value=f, duration=0.08822909999980766>
+144.5791 	DATA 	Keypress: f
+144.5883 	INFO 	Keyboard events cleared
+144.5883 	EXP 	middle_image: autoDraw = False
+144.5883 	EXP 	left_image: autoDraw = False
+144.5883 	EXP 	right_image: autoDraw = False
+144.5883 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+144.5883 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+144.5883 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+144.5883 	EXP 	middle_image: autoDraw = True
+144.5883 	EXP 	right_image: autoDraw = True
+145.4878 	EXP 	left_image: autoDraw = True
+156.8881 	EXP 	Device response: <KeyPress from None: t=156.87718590000077, value=f, duration=None>
+156.8884 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+156.9789 	EXP 	Device response: <KeyPress from None: t=156.87718590000077, value=f, duration=0.08000749999882828>
+156.9800 	DATA 	Keypress: f
+156.9896 	INFO 	Keyboard events cleared
+156.9896 	EXP 	middle_image: autoDraw = False
+156.9896 	EXP 	left_image: autoDraw = False
+156.9896 	EXP 	right_image: autoDraw = False
+156.9896 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_14.png'
+156.9896 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_14.png'
+156.9896 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_14.png'
+156.9896 	EXP 	middle_image: autoDraw = True
+156.9896 	EXP 	right_image: autoDraw = True
+157.8877 	EXP 	left_image: autoDraw = True
+169.2045 	EXP 	Device response: <KeyPress from None: t=169.19704770000135, value=f, duration=None>
+169.2048 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+169.2874 	EXP 	Device response: <KeyPress from None: t=169.19704770000135, value=f, duration=0.08010729999841715>
+169.2887 	DATA 	Keypress: f
+169.2991 	INFO 	Keyboard events cleared
+169.2990 	EXP 	middle_image: autoDraw = False
+169.2990 	EXP 	left_image: autoDraw = False
+169.2990 	EXP 	right_image: autoDraw = False
+169.2990 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_14.png'
+169.2990 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_14.png'
+169.2990 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_14.png'
+169.2990 	EXP 	middle_image: autoDraw = True
+169.2990 	EXP 	right_image: autoDraw = True
+170.2042 	EXP 	left_image: autoDraw = True
+197.2041 	EXP 	Device response: <KeyPress from None: t=197.19718790000115, value=j, duration=None>
+197.2045 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+197.2878 	EXP 	Device response: <KeyPress from None: t=135.7570582999997, value=j, duration=61.52818079999997>
+197.2889 	DATA 	Keypress: j
+197.2983 	INFO 	Keyboard events cleared
+197.2983 	EXP 	middle_image: autoDraw = False
+197.2983 	EXP 	left_image: autoDraw = False
+197.2983 	EXP 	right_image: autoDraw = False
+197.2983 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+197.2983 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+197.2983 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+197.2983 	EXP 	middle_image: autoDraw = True
+197.2983 	EXP 	right_image: autoDraw = True
+198.2038 	EXP 	left_image: autoDraw = True
+216.2539 	EXP 	Device response: <KeyPress from None: t=216.24505230000068, value=f, duration=None>
+216.2543 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+216.3401 	DATA 	Keypress: f
+216.3499 	INFO 	Keyboard events cleared
+216.3499 	EXP 	middle_image: autoDraw = False
+216.3499 	EXP 	left_image: autoDraw = False
+216.3499 	EXP 	right_image: autoDraw = False
+216.3499 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+216.3499 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+216.3499 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+216.3499 	EXP 	middle_image: autoDraw = True
+216.3499 	EXP 	right_image: autoDraw = True
+216.3702 	EXP 	Device response: <KeyPress from None: t=216.24505230000068, value=f, duration=0.12005850000059581>
+217.2536 	EXP 	left_image: autoDraw = True
+238.1203 	EXP 	Device response: <KeyPress from None: t=238.10993940000117, value=j, duration=None>
+238.1207 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+238.2024 	EXP 	Device response: <KeyPress from None: t=197.19718790000115, value=j, duration=40.991893999998865>
+238.2036 	DATA 	Keypress: j
+238.2142 	INFO 	Keyboard events cleared
+238.2142 	EXP 	middle_image: autoDraw = False
+238.2142 	EXP 	left_image: autoDraw = False
+238.2142 	EXP 	right_image: autoDraw = False
+238.2142 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+238.2142 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+238.2142 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+238.2142 	EXP 	middle_image: autoDraw = True
+238.2142 	EXP 	right_image: autoDraw = True
+239.1201 	EXP 	left_image: autoDraw = True
+255.1700 	EXP 	Device response: <KeyPress from None: t=255.16510860000017, value=f, duration=None>
+255.1703 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+255.2535 	DATA 	Keypress: f
+255.2626 	INFO 	Keyboard events cleared
+255.2625 	EXP 	middle_image: autoDraw = False
+255.2625 	EXP 	left_image: autoDraw = False
+255.2625 	EXP 	right_image: autoDraw = False
+255.2625 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+255.2625 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+255.2625 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+255.2625 	EXP 	middle_image: autoDraw = True
+255.2625 	EXP 	right_image: autoDraw = True
+255.3031 	EXP 	Device response: <KeyPress from None: t=255.16510860000017, value=f, duration=0.12799620000077994>
+256.1699 	EXP 	left_image: autoDraw = True
+270.2698 	EXP 	Device response: <KeyPress from None: t=270.2691560000003, value=f, duration=None>
+270.2701 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+270.3622 	EXP 	Device response: <KeyPress from None: t=270.2691560000003, value=f, duration=0.0799700000006851>
+270.3635 	DATA 	Keypress: f
+270.3724 	INFO 	Keyboard events cleared
+270.3724 	EXP 	middle_image: autoDraw = False
+270.3724 	EXP 	left_image: autoDraw = False
+270.3724 	EXP 	right_image: autoDraw = False
+270.3724 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+270.3724 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+270.3724 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+270.3724 	EXP 	middle_image: autoDraw = True
+270.3724 	EXP 	right_image: autoDraw = True
+271.2695 	EXP 	left_image: autoDraw = True
+299.3694 	EXP 	Device response: <KeyPress from None: t=299.3571329000006, value=j, duration=None>
+299.3698 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+299.4700 	DATA 	Keypress: j
+299.4783 	INFO 	Keyboard events cleared
+299.4783 	EXP 	middle_image: autoDraw = False
+299.4783 	EXP 	left_image: autoDraw = False
+299.4783 	EXP 	right_image: autoDraw = False
+299.4783 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+299.4783 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+299.4783 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+299.4783 	EXP 	middle_image: autoDraw = True
+299.4783 	EXP 	right_image: autoDraw = True
+300.3691 	EXP 	left_image: autoDraw = True
+322.8022 	EXP 	Device response: <KeyPress from None: t=322.7890208000008, value=f, duration=None>
+322.8025 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+322.8978 	DATA 	Keypress: f
+322.9074 	INFO 	Keyboard events cleared
+322.9074 	EXP 	middle_image: autoDraw = False
+322.9074 	EXP 	left_image: autoDraw = False
+322.9074 	EXP 	right_image: autoDraw = False
+322.9074 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+322.9074 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+322.9074 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+322.9074 	EXP 	middle_image: autoDraw = True
+322.9074 	EXP 	right_image: autoDraw = True
+323.8020 	EXP 	left_image: autoDraw = True
+342.3690 	EXP 	Device response: <KeyPress from None: t=342.35718950000046, value=j, duration=None>
+342.3694 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+342.4692 	EXP 	Device response: <KeyPress from None: t=238.10993940000117, value=j, duration=104.33508669999901>
+342.4703 	DATA 	Keypress: j
+342.4802 	INFO 	Keyboard events cleared
+342.4802 	EXP 	middle_image: autoDraw = False
+342.4802 	EXP 	left_image: autoDraw = False
+342.4802 	EXP 	right_image: autoDraw = False
+342.4802 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+342.4802 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+342.4802 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+342.4802 	EXP 	middle_image: autoDraw = True
+342.4802 	EXP 	right_image: autoDraw = True
+343.3687 	EXP 	left_image: autoDraw = True
+392.5849 	EXP 	Device response: <KeyPress from None: t=392.5730954999999, value=f, duration=None>
+392.5853 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+392.6825 	EXP 	Device response: <KeyPress from None: t=322.7890208000008, value=f, duration=69.8721172000005>
+392.6839 	DATA 	Keypress: f
+392.6923 	INFO 	Keyboard events cleared
+392.6922 	EXP 	middle_image: autoDraw = False
+392.6922 	EXP 	left_image: autoDraw = False
+392.6922 	EXP 	right_image: autoDraw = False
+392.6922 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+392.6922 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+392.6922 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+392.6922 	EXP 	middle_image: autoDraw = True
+392.6922 	EXP 	right_image: autoDraw = True
+393.5847 	EXP 	left_image: autoDraw = True
+407.8846 	EXP 	Device response: <KeyPress from None: t=407.8770396, value=j, duration=None>
+407.8849 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+407.9847 	EXP 	Device response: <KeyPress from None: t=299.3571329000006, value=j, duration=108.61599059999935>
+407.9861 	DATA 	Keypress: j
+407.9942 	INFO 	Keyboard events cleared
+407.9941 	EXP 	middle_image: autoDraw = False
+407.9941 	EXP 	left_image: autoDraw = False
+407.9941 	EXP 	right_image: autoDraw = False
+407.9941 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+407.9941 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+407.9941 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+407.9941 	EXP 	middle_image: autoDraw = True
+407.9941 	EXP 	right_image: autoDraw = True
+408.8842 	EXP 	left_image: autoDraw = True
+427.0177 	EXP 	Device response: <KeyPress from None: t=427.0131008999997, value=f, duration=None>
+427.0181 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+427.1105 	DATA 	Keypress: f
+427.1204 	INFO 	Keyboard events cleared
+427.1203 	EXP 	middle_image: autoDraw = False
+427.1203 	EXP 	left_image: autoDraw = False
+427.1203 	EXP 	right_image: autoDraw = False
+427.1203 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+427.1203 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+427.1203 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+427.1203 	EXP 	middle_image: autoDraw = True
+427.1203 	EXP 	right_image: autoDraw = True
+427.1343 	EXP 	Device response: <KeyPress from None: t=392.5730954999999, value=f, duration=34.56007700000009>
+428.0174 	EXP 	left_image: autoDraw = True
+443.0507 	EXP 	Device response: <KeyPress from None: t=443.0369950000004, value=j, duration=None>
+443.0511 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+443.1512 	EXP 	Device response: <KeyPress from None: t=342.35718950000046, value=j, duration=100.7599668999992>
+443.1524 	DATA 	Keypress: j
+443.1619 	INFO 	Keyboard events cleared
+443.1618 	EXP 	middle_image: autoDraw = False
+443.1618 	EXP 	left_image: autoDraw = False
+443.1618 	EXP 	right_image: autoDraw = False
+443.1618 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+443.1618 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+443.1618 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+443.1618 	EXP 	middle_image: autoDraw = True
+443.1618 	EXP 	right_image: autoDraw = True
+444.0504 	EXP 	left_image: autoDraw = True
+460.0171 	EXP 	Device response: <KeyPress from None: t=460.005003100001, value=j, duration=None>
+460.0174 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+460.1170 	EXP 	Device response: <KeyPress from None: t=407.8770396, value=j, duration=52.20798889999969>
+460.1181 	DATA 	Keypress: j
+460.1267 	INFO 	Keyboard events cleared
+460.1266 	EXP 	middle_image: autoDraw = False
+460.1266 	EXP 	left_image: autoDraw = False
+460.1266 	EXP 	right_image: autoDraw = False
+460.1266 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+460.1266 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+460.1266 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+460.1266 	EXP 	middle_image: autoDraw = True
+460.1266 	EXP 	right_image: autoDraw = True
+461.0171 	EXP 	left_image: autoDraw = True
+462.1175 	DATA 	Keypress: f
+462.1339 	EXP 	Device response: <KeyPress from None: t=462.1171658000003, value=f, duration=None>
+462.1342 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+462.2329 	INFO 	Keyboard events cleared
+462.2328 	EXP 	middle_image: autoDraw = False
+462.2328 	EXP 	left_image: autoDraw = False
+462.2328 	EXP 	right_image: autoDraw = False
+462.2328 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+462.2328 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+462.2328 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+462.2328 	EXP 	middle_image: autoDraw = True
+462.2328 	EXP 	right_image: autoDraw = True
+463.1334 	EXP 	left_image: autoDraw = True
+464.7339 	EXP 	Device response: <KeyPress from None: t=464.7251575999999, value=f, duration=None>
+464.7342 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+464.8232 	EXP 	Device response: <KeyPress from None: t=427.0131008999997, value=f, duration=37.79207810000116>
+464.8245 	DATA 	Keypress: f
+464.8339 	INFO 	Keyboard events cleared
+464.8339 	EXP 	middle_image: autoDraw = False
+464.8339 	EXP 	left_image: autoDraw = False
+464.8339 	EXP 	right_image: autoDraw = False
+464.8339 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+464.8339 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+464.8339 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+464.8339 	EXP 	middle_image: autoDraw = True
+464.8339 	EXP 	right_image: autoDraw = True
+465.7339 	EXP 	left_image: autoDraw = True
+467.1671 	EXP 	Device response: <KeyPress from None: t=467.1573520000002, value=j, duration=None>
+467.1675 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+467.2579 	DATA 	Keypress: j
+467.2660 	INFO 	Keyboard events cleared
+467.2660 	EXP 	middle_image: autoDraw = False
+467.2660 	EXP 	left_image: autoDraw = False
+467.2660 	EXP 	right_image: autoDraw = False
+467.2660 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+467.2660 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+467.2660 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+467.2660 	EXP 	middle_image: autoDraw = True
+467.2660 	EXP 	right_image: autoDraw = True
+467.2735 	EXP 	Device response: <KeyPress from None: t=443.0369950000004, value=j, duration=24.232001700000183>
+468.1666 	EXP 	left_image: autoDraw = True
+477.5003 	EXP 	Device response: <KeyPress from None: t=477.485063600001, value=f, duration=None>
+477.5006 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+477.5887 	EXP 	Device response: <KeyPress from None: t=462.1171658000003, value=f, duration=15.45600849999937>
+477.5898 	DATA 	Keypress: f
+477.6001 	INFO 	Keyboard events cleared
+477.6001 	EXP 	middle_image: autoDraw = False
+477.6001 	EXP 	left_image: autoDraw = False
+477.6001 	EXP 	right_image: autoDraw = False
+477.6001 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+477.6001 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+477.6001 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+477.6001 	EXP 	middle_image: autoDraw = True
+477.6001 	EXP 	right_image: autoDraw = True
+478.4999 	EXP 	left_image: autoDraw = True
+492.1666 	EXP 	Device response: <KeyPress from None: t=492.1649889, value=j, duration=None>
+492.1669 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+492.2553 	EXP 	Device response: <KeyPress from None: t=460.005003100001, value=j, duration=32.248111799999606>
+492.2565 	DATA 	Keypress: j
+492.2659 	INFO 	Keyboard events cleared
+492.2659 	EXP 	middle_image: autoDraw = False
+492.2659 	EXP 	left_image: autoDraw = False
+492.2659 	EXP 	right_image: autoDraw = False
+492.2659 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+492.2659 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+492.2659 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+492.2659 	EXP 	middle_image: autoDraw = True
+492.2659 	EXP 	right_image: autoDraw = True
+493.1663 	EXP 	left_image: autoDraw = True
+495.3334 	EXP 	Device response: <KeyPress from None: t=495.3252948999998, value=f, duration=None>
+495.3337 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+495.4228 	EXP 	Device response: <KeyPress from None: t=464.7251575999999, value=f, duration=30.695969300000797>
+495.4239 	DATA 	Keypress: f
+495.4324 	INFO 	Keyboard events cleared
+495.4324 	EXP 	middle_image: autoDraw = False
+495.4324 	EXP 	left_image: autoDraw = False
+495.4324 	EXP 	right_image: autoDraw = False
+495.4324 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+495.4324 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+495.4324 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+495.4324 	EXP 	middle_image: autoDraw = True
+495.4324 	EXP 	right_image: autoDraw = True
+496.3332 	EXP 	left_image: autoDraw = True
+499.4999 	EXP 	Device response: <KeyPress from None: t=499.49309879999964, value=f, duration=None>
+499.5002 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+499.5883 	EXP 	Device response: <KeyPress from None: t=477.485063600001, value=f, duration=22.064050799999677>
+499.5896 	DATA 	Keypress: f
+499.5988 	INFO 	Keyboard events cleared
+499.5987 	EXP 	middle_image: autoDraw = False
+499.5987 	EXP 	left_image: autoDraw = False
+499.5987 	EXP 	right_image: autoDraw = False
+499.5987 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+499.5987 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+499.5987 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+499.5987 	EXP 	middle_image: autoDraw = True
+499.5987 	EXP 	right_image: autoDraw = True
+500.4996 	EXP 	left_image: autoDraw = True
+505.0331 	EXP 	Device response: <KeyPress from None: t=505.028976900001, value=f, duration=None>
+505.0335 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+505.1369 	EXP 	Device response: <KeyPress from None: t=495.3252948999998, value=f, duration=9.77587880000101>
+505.1382 	DATA 	Keypress: f
+505.1464 	INFO 	Keyboard events cleared
+505.1464 	EXP 	middle_image: autoDraw = False
+505.1464 	EXP 	left_image: autoDraw = False
+505.1464 	EXP 	right_image: autoDraw = False
+505.1464 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+505.1464 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+505.1464 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+505.1464 	EXP 	middle_image: autoDraw = True
+505.1464 	EXP 	right_image: autoDraw = True
+506.0328 	EXP 	left_image: autoDraw = True
+509.8665 	EXP 	Device response: <KeyPress from None: t=509.8609217000012, value=j, duration=None>
+509.8668 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+509.9691 	EXP 	Device response: <KeyPress from None: t=467.1573520000002, value=j, duration=42.759667100001025>
+509.9702 	DATA 	Keypress: j
+509.9792 	INFO 	Keyboard events cleared
+509.9792 	EXP 	middle_image: autoDraw = False
+509.9792 	EXP 	left_image: autoDraw = False
+509.9792 	EXP 	right_image: autoDraw = False
+509.9792 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+509.9792 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+509.9792 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+509.9792 	EXP 	middle_image: autoDraw = True
+509.9792 	EXP 	right_image: autoDraw = True
+510.8664 	EXP 	left_image: autoDraw = True
+521.5664 	EXP 	Device response: <KeyPress from None: t=521.5573666, value=f, duration=None>
+521.5668 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+521.6539 	EXP 	Device response: <KeyPress from None: t=499.49309879999964, value=f, duration=22.159954700000526>
+521.6550 	DATA 	Keypress: f
+521.6645 	INFO 	Keyboard events cleared
+521.6644 	EXP 	middle_image: autoDraw = False
+521.6644 	EXP 	left_image: autoDraw = False
+521.6644 	EXP 	right_image: autoDraw = False
+521.6644 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+521.6644 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+521.6644 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+521.6644 	EXP 	middle_image: autoDraw = True
+521.6644 	EXP 	right_image: autoDraw = True
+522.5661 	EXP 	left_image: autoDraw = True
+523.8663 	EXP 	Device response: <KeyPress from None: t=523.8530038000008, value=f, duration=None>
+523.8667 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+523.9596 	EXP 	Device response: <KeyPress from None: t=505.028976900001, value=f, duration=18.896090299998832>
+523.9612 	DATA 	Keypress: f
+523.9701 	INFO 	Keyboard events cleared
+523.9701 	EXP 	middle_image: autoDraw = False
+523.9701 	EXP 	left_image: autoDraw = False
+523.9701 	EXP 	right_image: autoDraw = False
+523.9701 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+523.9701 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+523.9701 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+523.9701 	EXP 	middle_image: autoDraw = True
+523.9701 	EXP 	right_image: autoDraw = True
+524.8662 	EXP 	left_image: autoDraw = True
+534.7496 	EXP 	Device response: <KeyPress from None: t=534.7412514999996, value=j, duration=None>
+534.7500 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+534.8497 	EXP 	Device response: <KeyPress from None: t=492.1649889, value=j, duration=42.648113600000215>
+534.8509 	DATA 	Keypress: j
+534.8595 	INFO 	Keyboard events cleared
+534.8595 	EXP 	middle_image: autoDraw = False
+534.8595 	EXP 	left_image: autoDraw = False
+534.8595 	EXP 	right_image: autoDraw = False
+534.8595 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+534.8595 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+534.8595 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+534.8595 	EXP 	middle_image: autoDraw = True
+534.8595 	EXP 	right_image: autoDraw = True
+535.7493 	EXP 	left_image: autoDraw = True
+536.6495 	EXP 	Device response: <KeyPress from None: t=536.6371885000008, value=f, duration=None>
+536.6498 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+536.7469 	EXP 	Device response: <KeyPress from None: t=521.5573666, value=f, duration=15.167838900000788>
+536.7480 	DATA 	Keypress: f
+536.7573 	INFO 	Keyboard events cleared
+536.7573 	EXP 	middle_image: autoDraw = False
+536.7573 	EXP 	left_image: autoDraw = False
+536.7573 	EXP 	right_image: autoDraw = False
+536.7573 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+536.7573 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+536.7573 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+536.7573 	EXP 	middle_image: autoDraw = True
+536.7573 	EXP 	right_image: autoDraw = True
+537.6491 	EXP 	left_image: autoDraw = True
+541.0163 	EXP 	Device response: <KeyPress from None: t=541.0131546000011, value=j, duration=None>
+541.0166 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+541.1079 	EXP 	Device response: <KeyPress from None: t=509.8609217000012, value=j, duration=31.24022100000002>
+541.1091 	DATA 	Keypress: j
+541.1187 	INFO 	Keyboard events cleared
+541.1186 	EXP 	middle_image: autoDraw = False
+541.1186 	EXP 	left_image: autoDraw = False
+541.1186 	EXP 	right_image: autoDraw = False
+541.1186 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+541.1186 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+541.1186 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+541.1186 	EXP 	middle_image: autoDraw = True
+541.1186 	EXP 	right_image: autoDraw = True
+542.0159 	EXP 	left_image: autoDraw = True
+556.3660 	EXP 	Device response: <KeyPress from None: t=556.3652483000005, value=j, duration=None>
+556.3664 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+556.4664 	EXP 	Device response: <KeyPress from None: t=534.7412514999996, value=j, duration=21.680020499999955>
+556.4674 	DATA 	Keypress: j
+556.4773 	INFO 	Keyboard events cleared
+556.4772 	EXP 	middle_image: autoDraw = False
+556.4772 	EXP 	left_image: autoDraw = False
+556.4772 	EXP 	right_image: autoDraw = False
+556.4772 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+556.4772 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+556.4772 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+556.4772 	EXP 	middle_image: autoDraw = True
+556.4772 	EXP 	right_image: autoDraw = True
+557.3657 	EXP 	left_image: autoDraw = True
+565.9496 	DATA 	Keypress: j
+565.9657 	EXP 	Device response: <KeyPress from None: t=565.9489637000006, value=j, duration=None>
+565.9661 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+566.0563 	EXP 	Device response: <KeyPress from None: t=541.0131546000011, value=j, duration=25.00786329999937>
+566.0680 	INFO 	Keyboard events cleared
+566.0680 	EXP 	middle_image: autoDraw = False
+566.0680 	EXP 	left_image: autoDraw = False
+566.0680 	EXP 	right_image: autoDraw = False
+566.0680 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+566.0680 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+566.0680 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_15.png'
+566.0680 	EXP 	middle_image: autoDraw = True
+566.0680 	EXP 	right_image: autoDraw = True
+566.9657 	EXP 	left_image: autoDraw = True
+567.9322 	EXP 	Device response: <KeyPress from None: t=567.9169761000012, value=f, duration=None>
+567.9325 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+568.0315 	EXP 	Device response: <KeyPress from None: t=523.8530038000008, value=f, duration=44.144112300000415>
+568.0327 	DATA 	Keypress: f
+568.0413 	INFO 	Keyboard events cleared
+568.0412 	EXP 	middle_image: autoDraw = False
+568.0412 	EXP 	left_image: autoDraw = False
+568.0412 	EXP 	right_image: autoDraw = False
+568.0412 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+568.0412 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+568.0412 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+568.0412 	EXP 	middle_image: autoDraw = True
+568.0412 	EXP 	right_image: autoDraw = True
+568.9320 	EXP 	left_image: autoDraw = True
+570.3658 	EXP 	Device response: <KeyPress from None: t=570.3569678000003, value=j, duration=None>
+570.3661 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+570.4523 	EXP 	Device response: <KeyPress from None: t=556.3652483000005, value=j, duration=14.06377909999901>
+570.4534 	DATA 	Keypress: j
+570.4632 	INFO 	Keyboard events cleared
+570.4631 	EXP 	middle_image: autoDraw = False
+570.4631 	EXP 	left_image: autoDraw = False
+570.4631 	EXP 	right_image: autoDraw = False
+570.4631 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+570.4631 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+570.4631 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+570.4631 	EXP 	middle_image: autoDraw = True
+570.4631 	EXP 	right_image: autoDraw = True
+571.3657 	EXP 	left_image: autoDraw = True
+574.4989 	EXP 	Device response: <KeyPress from None: t=574.4849339000011, value=j, duration=None>
+574.4992 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+574.5874 	EXP 	Device response: <KeyPress from None: t=565.9489637000006, value=j, duration=8.624062999999296>
+574.5886 	DATA 	Keypress: j
+574.5979 	INFO 	Keyboard events cleared
+574.5979 	EXP 	middle_image: autoDraw = False
+574.5979 	EXP 	left_image: autoDraw = False
+574.5979 	EXP 	right_image: autoDraw = False
+574.5979 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+574.5979 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+574.5979 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_15.png'
+574.5979 	EXP 	middle_image: autoDraw = True
+574.5979 	EXP 	right_image: autoDraw = True
+575.4989 	EXP 	left_image: autoDraw = True
+583.9822 	EXP 	Device response: <KeyPress from None: t=583.9734131000005, value=f, duration=None>
+583.9825 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+584.0704 	EXP 	Device response: <KeyPress from None: t=536.6371885000008, value=f, duration=47.41591589999916>
+584.0715 	DATA 	Keypress: f
+584.0813 	INFO 	Keyboard events cleared
+584.0813 	EXP 	middle_image: autoDraw = False
+584.0813 	EXP 	left_image: autoDraw = False
+584.0813 	EXP 	right_image: autoDraw = False
+584.0813 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_14.png'
+584.0813 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_14.png'
+584.0813 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_14.png'
+584.0813 	EXP 	middle_image: autoDraw = True
+584.0813 	EXP 	right_image: autoDraw = True
+584.9820 	EXP 	left_image: autoDraw = True
+585.9655 	EXP 	Device response: <KeyPress from None: t=585.9651212000008, value=f, duration=None>
+585.9658 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+586.0555 	DATA 	Keypress: f
+586.0655 	INFO 	Keyboard events cleared
+586.0654 	EXP 	middle_image: autoDraw = False
+586.0654 	EXP 	left_image: autoDraw = False
+586.0654 	EXP 	right_image: autoDraw = False
+586.0654 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+586.0654 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+586.0654 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shifteddirectgaze.png'
+586.0654 	EXP 	middle_image: autoDraw = True
+586.0654 	EXP 	right_image: autoDraw = True
+586.9652 	EXP 	left_image: autoDraw = True
+588.3153 	EXP 	Device response: <KeyPress from None: t=588.3090324000004, value=j, duration=None>
+588.3156 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+588.4119 	DATA 	Keypress: j
+588.4214 	INFO 	Keyboard events cleared
+588.4213 	EXP 	middle_image: autoDraw = False
+588.4213 	EXP 	left_image: autoDraw = False
+588.4213 	EXP 	right_image: autoDraw = False
+588.4213 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_13.png'
+588.4213 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_13.png'
+588.4213 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_R_13.png'
+588.4213 	EXP 	middle_image: autoDraw = True
+588.4213 	EXP 	right_image: autoDraw = True
+589.3151 	EXP 	left_image: autoDraw = True
+590.2654 	EXP 	Device response: <KeyPress from None: t=590.253037800001, value=f, duration=None>
+590.2657 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+590.3529 	EXP 	Device response: <KeyPress from None: t=567.9169761000012, value=f, duration=22.432214299999032>
+590.3547 	DATA 	Keypress: f
+590.3637 	INFO 	Keyboard events cleared
+590.3637 	EXP 	middle_image: autoDraw = False
+590.3637 	EXP 	left_image: autoDraw = False
+590.3637 	EXP 	right_image: autoDraw = False
+590.3637 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_13.png'
+590.3637 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_13.png'
+590.3637 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10pos\\shiftedgaze_L_13.png'
+590.3637 	EXP 	middle_image: autoDraw = True
+590.3637 	EXP 	right_image: autoDraw = True
+591.2650 	EXP 	left_image: autoDraw = True
+593.8153 	EXP 	Device response: <KeyPress from None: t=593.8050245000013, value=j, duration=None>
+593.8170 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'xPos': np.float64(17.5), 'stimulusSet': 'ecc0', 'whichImage': 'mid', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+593.8179 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+593.9072 	EXP 	Device response: <KeyPress from None: t=570.3569678000003, value=j, duration=23.528002499999275>
+593.9083 	DATA 	Keypress: j
+593.9175 	INFO 	Keyboard events cleared
+593.9174 	EXP 	middle_image: autoDraw = False
+593.9174 	EXP 	left_image: autoDraw = False
+593.9174 	EXP 	right_image: autoDraw = False
+593.9174 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+593.9174 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+593.9174 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+593.9174 	EXP 	left_image: autoDraw = True
+593.9174 	EXP 	right_image: autoDraw = True
+594.8319 	EXP 	middle_image: autoDraw = True
+598.1320 	EXP 	Device response: <KeyPress from None: t=598.1251255999996, value=j, duration=None>
+598.1324 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+598.2195 	EXP 	Device response: <KeyPress from None: t=574.4849339000011, value=j, duration=23.712316299999657>
+598.2208 	DATA 	Keypress: j
+598.2298 	INFO 	Keyboard events cleared
+598.2297 	EXP 	middle_image: autoDraw = False
+598.2297 	EXP 	left_image: autoDraw = False
+598.2297 	EXP 	right_image: autoDraw = False
+598.2297 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+598.2297 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+598.2297 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+598.2297 	EXP 	left_image: autoDraw = True
+598.2297 	EXP 	right_image: autoDraw = True
+599.1318 	EXP 	middle_image: autoDraw = True
+612.8818 	EXP 	Device response: <KeyPress from None: t=612.8690344999995, value=j, duration=None>
+612.8822 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+612.9718 	EXP 	Device response: <KeyPress from None: t=588.3090324000004, value=j, duration=24.648014700000203>
+612.9731 	DATA 	Keypress: j
+612.9827 	INFO 	Keyboard events cleared
+612.9827 	EXP 	middle_image: autoDraw = False
+612.9827 	EXP 	left_image: autoDraw = False
+612.9827 	EXP 	right_image: autoDraw = False
+612.9827 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_14.png'
+612.9827 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_14.png'
+612.9827 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_14.png'
+612.9827 	EXP 	left_image: autoDraw = True
+612.9827 	EXP 	right_image: autoDraw = True
+613.8817 	EXP 	middle_image: autoDraw = True
+636.2814 	EXP 	Device response: <KeyPress from None: t=636.2770357000009, value=f, duration=None>
+636.2817 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+636.3684 	EXP 	Device response: <KeyPress from None: t=583.9734131000005, value=f, duration=52.38362579999921>
+636.3696 	DATA 	Keypress: f
+636.3786 	INFO 	Keyboard events cleared
+636.3785 	EXP 	middle_image: autoDraw = False
+636.3785 	EXP 	left_image: autoDraw = False
+636.3785 	EXP 	right_image: autoDraw = False
+636.3785 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+636.3785 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+636.3785 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+636.3785 	EXP 	left_image: autoDraw = True
+636.3785 	EXP 	right_image: autoDraw = True
+637.2812 	EXP 	middle_image: autoDraw = True
+646.2979 	EXP 	Device response: <KeyPress from None: t=646.2930324999998, value=f, duration=None>
+646.2982 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+646.3865 	EXP 	Device response: <KeyPress from None: t=585.9651212000008, value=f, duration=60.40796059999957>
+646.3877 	DATA 	Keypress: f
+646.3976 	INFO 	Keyboard events cleared
+646.3975 	EXP 	middle_image: autoDraw = False
+646.3975 	EXP 	left_image: autoDraw = False
+646.3975 	EXP 	right_image: autoDraw = False
+646.3975 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+646.3975 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+646.3975 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+646.3975 	EXP 	left_image: autoDraw = True
+646.3975 	EXP 	right_image: autoDraw = True
+647.2976 	EXP 	middle_image: autoDraw = True
+648.1143 	EXP 	Device response: <KeyPress from None: t=648.1090287999996, value=j, duration=None>
+648.1146 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+648.2029 	DATA 	Keypress: j
+648.2137 	INFO 	Keyboard events cleared
+648.2136 	EXP 	middle_image: autoDraw = False
+648.2136 	EXP 	left_image: autoDraw = False
+648.2136 	EXP 	right_image: autoDraw = False
+648.2136 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+648.2136 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+648.2136 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+648.2136 	EXP 	left_image: autoDraw = True
+648.2136 	EXP 	right_image: autoDraw = True
+649.1143 	EXP 	middle_image: autoDraw = True
+653.1311 	EXP 	Device response: <KeyPress from None: t=653.1169726999997, value=f, duration=None>
+653.1315 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+653.2185 	EXP 	Device response: <KeyPress from None: t=590.253037800001, value=f, duration=62.936013399999865>
+653.2196 	DATA 	Keypress: f
+653.2303 	INFO 	Keyboard events cleared
+653.2303 	EXP 	middle_image: autoDraw = False
+653.2303 	EXP 	left_image: autoDraw = False
+653.2303 	EXP 	right_image: autoDraw = False
+653.2303 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+653.2303 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+653.2303 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+653.2303 	EXP 	left_image: autoDraw = True
+653.2303 	EXP 	right_image: autoDraw = True
+654.1309 	EXP 	middle_image: autoDraw = True
+655.2978 	EXP 	Device response: <KeyPress from None: t=655.2850928000007, value=j, duration=None>
+655.2981 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+655.3844 	EXP 	Device response: <KeyPress from None: t=593.8050245000013, value=j, duration=61.5522007999989>
+655.3859 	DATA 	Keypress: j
+655.3951 	INFO 	Keyboard events cleared
+655.3950 	EXP 	middle_image: autoDraw = False
+655.3950 	EXP 	left_image: autoDraw = False
+655.3950 	EXP 	right_image: autoDraw = False
+655.3950 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+655.3950 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+655.3950 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+655.3950 	EXP 	left_image: autoDraw = True
+655.3950 	EXP 	right_image: autoDraw = True
+656.2976 	EXP 	middle_image: autoDraw = True
+660.2810 	EXP 	Device response: <KeyPress from None: t=660.2769907000002, value=j, duration=None>
+660.2813 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+660.3700 	EXP 	Device response: <KeyPress from None: t=598.1251255999996, value=j, duration=62.208006300001216>
+660.3711 	DATA 	Keypress: j
+660.3804 	INFO 	Keyboard events cleared
+660.3804 	EXP 	middle_image: autoDraw = False
+660.3804 	EXP 	left_image: autoDraw = False
+660.3804 	EXP 	right_image: autoDraw = False
+660.3804 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+660.3804 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+660.3804 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+660.3804 	EXP 	left_image: autoDraw = True
+660.3804 	EXP 	right_image: autoDraw = True
+661.2806 	EXP 	middle_image: autoDraw = True
+665.4644 	EXP 	Device response: <KeyPress from None: t=665.4539839999998, value=j, duration=None>
+665.4648 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+665.5637 	EXP 	Device response: <KeyPress from None: t=612.8690344999995, value=j, duration=52.671884400000636>
+665.5650 	DATA 	Keypress: j
+665.5766 	INFO 	Keyboard events cleared
+665.5765 	EXP 	middle_image: autoDraw = False
+665.5765 	EXP 	left_image: autoDraw = False
+665.5765 	EXP 	right_image: autoDraw = False
+665.5765 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+665.5765 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+665.5765 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+665.5765 	EXP 	left_image: autoDraw = True
+665.5765 	EXP 	right_image: autoDraw = True
+666.4643 	EXP 	middle_image: autoDraw = True
+668.0306 	EXP 	Device response: <KeyPress from None: t=668.0289823000003, value=f, duration=None>
+668.0310 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+668.1191 	DATA 	Keypress: f
+668.1289 	INFO 	Keyboard events cleared
+668.1288 	EXP 	middle_image: autoDraw = False
+668.1288 	EXP 	left_image: autoDraw = False
+668.1288 	EXP 	right_image: autoDraw = False
+668.1288 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+668.1288 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+668.1288 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+668.1288 	EXP 	left_image: autoDraw = True
+668.1288 	EXP 	right_image: autoDraw = True
+669.0307 	EXP 	middle_image: autoDraw = True
+677.8141 	EXP 	Device response: <KeyPress from None: t=677.8130196000002, value=f, duration=None>
+677.8144 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+677.9017 	EXP 	Device response: <KeyPress from None: t=636.2770357000009, value=f, duration=41.60825289999957>
+677.9028 	DATA 	Keypress: f
+677.9122 	INFO 	Keyboard events cleared
+677.9121 	EXP 	middle_image: autoDraw = False
+677.9121 	EXP 	left_image: autoDraw = False
+677.9121 	EXP 	right_image: autoDraw = False
+677.9121 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_14.png'
+677.9121 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_14.png'
+677.9121 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_14.png'
+677.9121 	EXP 	left_image: autoDraw = True
+677.9121 	EXP 	right_image: autoDraw = True
+678.8139 	EXP 	middle_image: autoDraw = True
+679.8141 	EXP 	Device response: <KeyPress from None: t=679.812982200001, value=j, duration=None>
+679.8144 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+679.9008 	EXP 	Device response: <KeyPress from None: t=648.1090287999996, value=j, duration=31.784130200001528>
+679.9021 	DATA 	Keypress: j
+679.9119 	INFO 	Keyboard events cleared
+679.9119 	EXP 	middle_image: autoDraw = False
+679.9119 	EXP 	left_image: autoDraw = False
+679.9119 	EXP 	right_image: autoDraw = False
+679.9119 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+679.9119 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+679.9119 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+679.9119 	EXP 	left_image: autoDraw = True
+679.9119 	EXP 	right_image: autoDraw = True
+680.8139 	EXP 	middle_image: autoDraw = True
+690.1139 	EXP 	Device response: <KeyPress from None: t=690.1009606000007, value=j, duration=None>
+690.1142 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+690.2023 	EXP 	Device response: <KeyPress from None: t=655.2850928000007, value=j, duration=34.912045499999294>
+690.2035 	DATA 	Keypress: j
+690.2137 	INFO 	Keyboard events cleared
+690.2137 	EXP 	middle_image: autoDraw = False
+690.2137 	EXP 	left_image: autoDraw = False
+690.2137 	EXP 	right_image: autoDraw = False
+690.2137 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+690.2137 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+690.2137 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+690.2137 	EXP 	left_image: autoDraw = True
+690.2137 	EXP 	right_image: autoDraw = True
+691.1137 	EXP 	middle_image: autoDraw = True
+692.5305 	EXP 	Device response: <KeyPress from None: t=692.5250260000012, value=j, duration=None>
+692.5308 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+692.6182 	EXP 	Device response: <KeyPress from None: t=660.2769907000002, value=j, duration=32.33628979999958>
+692.6193 	DATA 	Keypress: j
+692.6284 	INFO 	Keyboard events cleared
+692.6284 	EXP 	middle_image: autoDraw = False
+692.6284 	EXP 	left_image: autoDraw = False
+692.6284 	EXP 	right_image: autoDraw = False
+692.6284 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+692.6284 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+692.6284 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+692.6284 	EXP 	left_image: autoDraw = True
+692.6284 	EXP 	right_image: autoDraw = True
+693.5303 	EXP 	middle_image: autoDraw = True
+694.5639 	EXP 	Device response: <KeyPress from None: t=694.5489353000012, value=f, duration=None>
+694.5643 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+694.6537 	DATA 	Keypress: f
+694.6632 	INFO 	Keyboard events cleared
+694.6631 	EXP 	middle_image: autoDraw = False
+694.6631 	EXP 	left_image: autoDraw = False
+694.6631 	EXP 	right_image: autoDraw = False
+694.6631 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+694.6631 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+694.6631 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+694.6631 	EXP 	left_image: autoDraw = True
+694.6631 	EXP 	right_image: autoDraw = True
+695.5636 	EXP 	middle_image: autoDraw = True
+704.4639 	EXP 	Device response: <KeyPress from None: t=704.4610520000006, value=j, duration=None>
+704.4642 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+704.5527 	EXP 	Device response: <KeyPress from None: t=665.4539839999998, value=j, duration=39.08696820000114>
+704.5538 	DATA 	Keypress: j
+704.5633 	INFO 	Keyboard events cleared
+704.5633 	EXP 	middle_image: autoDraw = False
+704.5633 	EXP 	left_image: autoDraw = False
+704.5633 	EXP 	right_image: autoDraw = False
+704.5633 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+704.5633 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+704.5633 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+704.5633 	EXP 	left_image: autoDraw = True
+704.5633 	EXP 	right_image: autoDraw = True
+705.4636 	EXP 	middle_image: autoDraw = True
+706.6968 	EXP 	Device response: <KeyPress from None: t=706.6849533000004, value=f, duration=None>
+706.6971 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+706.7855 	EXP 	Device response: <KeyPress from None: t=646.2930324999998, value=f, duration=60.479966500000955>
+706.7866 	DATA 	Keypress: f
+706.7958 	INFO 	Keyboard events cleared
+706.7957 	EXP 	middle_image: autoDraw = False
+706.7957 	EXP 	left_image: autoDraw = False
+706.7957 	EXP 	right_image: autoDraw = False
+706.7957 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+706.7957 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+706.7957 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+706.7957 	EXP 	left_image: autoDraw = True
+706.7957 	EXP 	right_image: autoDraw = True
+707.6968 	EXP 	middle_image: autoDraw = True
+708.9636 	EXP 	Device response: <KeyPress from None: t=708.9490383000011, value=j, duration=None>
+708.9639 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+709.0515 	EXP 	Device response: <KeyPress from None: t=679.812982200001, value=j, duration=29.216060699998707>
+709.0527 	DATA 	Keypress: j
+709.0622 	INFO 	Keyboard events cleared
+709.0621 	EXP 	middle_image: autoDraw = False
+709.0621 	EXP 	left_image: autoDraw = False
+709.0621 	EXP 	right_image: autoDraw = False
+709.0621 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+709.0621 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+709.0621 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+709.0621 	EXP 	left_image: autoDraw = True
+709.0621 	EXP 	right_image: autoDraw = True
+709.9634 	EXP 	middle_image: autoDraw = True
+711.8470 	EXP 	Device response: <KeyPress from None: t=711.8372318000002, value=f, duration=None>
+711.8473 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+711.9347 	EXP 	Device response: <KeyPress from None: t=653.1169726999997, value=f, duration=58.81607310000072>
+711.9359 	DATA 	Keypress: f
+711.9448 	INFO 	Keyboard events cleared
+711.9448 	EXP 	middle_image: autoDraw = False
+711.9448 	EXP 	left_image: autoDraw = False
+711.9448 	EXP 	right_image: autoDraw = False
+711.9448 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+711.9448 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+711.9448 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+711.9448 	EXP 	left_image: autoDraw = True
+711.9448 	EXP 	right_image: autoDraw = True
+712.8468 	EXP 	middle_image: autoDraw = True
+713.7471 	EXP 	Device response: <KeyPress from None: t=713.7330511, value=j, duration=None>
+713.7474 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+713.8333 	EXP 	Device response: <KeyPress from None: t=690.1009606000007, value=j, duration=23.728243899999143>
+713.8346 	DATA 	Keypress: j
+713.8436 	INFO 	Keyboard events cleared
+713.8435 	EXP 	middle_image: autoDraw = False
+713.8435 	EXP 	left_image: autoDraw = False
+713.8435 	EXP 	right_image: autoDraw = False
+713.8435 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+713.8435 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+713.8435 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+713.8435 	EXP 	left_image: autoDraw = True
+713.8435 	EXP 	right_image: autoDraw = True
+714.7468 	EXP 	middle_image: autoDraw = True
+720.5636 	EXP 	Device response: <KeyPress from None: t=720.5489770000004, value=f, duration=None>
+720.5639 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+720.6511 	EXP 	Device response: <KeyPress from None: t=668.0289823000003, value=f, duration=52.592052399999375>
+720.6523 	DATA 	Keypress: f
+720.6625 	INFO 	Keyboard events cleared
+720.6625 	EXP 	middle_image: autoDraw = False
+720.6625 	EXP 	left_image: autoDraw = False
+720.6625 	EXP 	right_image: autoDraw = False
+720.6625 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+720.6625 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+720.6625 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+720.6625 	EXP 	left_image: autoDraw = True
+720.6625 	EXP 	right_image: autoDraw = True
+721.5633 	EXP 	middle_image: autoDraw = True
+727.8133 	EXP 	Device response: <KeyPress from None: t=727.813108100001, value=j, duration=None>
+727.8137 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+727.9002 	EXP 	Device response: <KeyPress from None: t=692.5250260000012, value=j, duration=35.368161899999905>
+727.9012 	DATA 	Keypress: j
+727.9107 	INFO 	Keyboard events cleared
+727.9107 	EXP 	middle_image: autoDraw = False
+727.9107 	EXP 	left_image: autoDraw = False
+727.9107 	EXP 	right_image: autoDraw = False
+727.9107 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+727.9107 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+727.9107 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+727.9107 	EXP 	left_image: autoDraw = True
+727.9107 	EXP 	right_image: autoDraw = True
+728.8132 	EXP 	middle_image: autoDraw = True
+731.2300 	EXP 	Device response: <KeyPress from None: t=731.2291239000006, value=j, duration=None>
+731.2303 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+731.3155 	EXP 	Device response: <KeyPress from None: t=704.4610520000006, value=j, duration=26.83209270000043>
+731.3168 	DATA 	Keypress: j
+731.3264 	INFO 	Keyboard events cleared
+731.3264 	EXP 	middle_image: autoDraw = False
+731.3264 	EXP 	left_image: autoDraw = False
+731.3264 	EXP 	right_image: autoDraw = False
+731.3264 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+731.3264 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+731.3264 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+731.3264 	EXP 	left_image: autoDraw = True
+731.3264 	EXP 	right_image: autoDraw = True
+732.2298 	EXP 	middle_image: autoDraw = True
+737.7300 	EXP 	Device response: <KeyPress from None: t=737.7252171, value=j, duration=None>
+737.7303 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+737.8190 	EXP 	Device response: <KeyPress from None: t=708.9490383000011, value=j, duration=28.856042100000195>
+737.8202 	DATA 	Keypress: j
+737.8293 	INFO 	Keyboard events cleared
+737.8292 	EXP 	middle_image: autoDraw = False
+737.8292 	EXP 	left_image: autoDraw = False
+737.8292 	EXP 	right_image: autoDraw = False
+737.8292 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+737.8292 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+737.8292 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+737.8292 	EXP 	left_image: autoDraw = True
+737.8292 	EXP 	right_image: autoDraw = True
+738.7297 	EXP 	middle_image: autoDraw = True
+740.3132 	EXP 	Device response: <KeyPress from None: t=740.3090928000001, value=j, duration=None>
+740.3136 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+740.3997 	EXP 	Device response: <KeyPress from None: t=713.7330511, value=j, duration=26.65599839999959>
+740.4009 	DATA 	Keypress: j
+740.4102 	INFO 	Keyboard events cleared
+740.4102 	EXP 	middle_image: autoDraw = False
+740.4102 	EXP 	left_image: autoDraw = False
+740.4102 	EXP 	right_image: autoDraw = False
+740.4102 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+740.4102 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+740.4102 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+740.4102 	EXP 	left_image: autoDraw = True
+740.4102 	EXP 	right_image: autoDraw = True
+741.3130 	EXP 	middle_image: autoDraw = True
+751.0465 	EXP 	Device response: <KeyPress from None: t=751.0371637000007, value=f, duration=None>
+751.0468 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+751.1343 	DATA 	Keypress: f
+751.1445 	INFO 	Keyboard events cleared
+751.1444 	EXP 	middle_image: autoDraw = False
+751.1444 	EXP 	left_image: autoDraw = False
+751.1444 	EXP 	right_image: autoDraw = False
+751.1444 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+751.1444 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+751.1444 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+751.1444 	EXP 	left_image: autoDraw = True
+751.1444 	EXP 	right_image: autoDraw = True
+752.0462 	EXP 	middle_image: autoDraw = True
+755.9463 	EXP 	Device response: <KeyPress from None: t=755.9410294000008, value=j, duration=None>
+755.9466 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+756.0360 	EXP 	Device response: <KeyPress from None: t=727.813108100001, value=j, duration=28.216065599999638>
+756.0373 	DATA 	Keypress: j
+756.0460 	INFO 	Keyboard events cleared
+756.0460 	EXP 	middle_image: autoDraw = False
+756.0460 	EXP 	left_image: autoDraw = False
+756.0460 	EXP 	right_image: autoDraw = False
+756.0460 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+756.0460 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+756.0460 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+756.0460 	EXP 	left_image: autoDraw = True
+756.0460 	EXP 	right_image: autoDraw = True
+756.9462 	EXP 	middle_image: autoDraw = True
+761.8130 	EXP 	Device response: <KeyPress from None: t=761.7969184000012, value=f, duration=None>
+761.8134 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+761.9015 	EXP 	Device response: <KeyPress from None: t=677.8130196000002, value=f, duration=84.06397199999992>
+761.9028 	DATA 	Keypress: f
+761.9121 	INFO 	Keyboard events cleared
+761.9120 	EXP 	middle_image: autoDraw = False
+761.9120 	EXP 	left_image: autoDraw = False
+761.9120 	EXP 	right_image: autoDraw = False
+761.9120 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+761.9120 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+761.9120 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+761.9120 	EXP 	left_image: autoDraw = True
+761.9120 	EXP 	right_image: autoDraw = True
+762.8126 	EXP 	middle_image: autoDraw = True
+765.7798 	EXP 	Device response: <KeyPress from None: t=765.7649297999997, value=j, duration=None>
+765.7801 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+765.8681 	EXP 	Device response: <KeyPress from None: t=731.2291239000006, value=j, duration=34.60792769999898>
+765.8697 	DATA 	Keypress: j
+765.8787 	INFO 	Keyboard events cleared
+765.8786 	EXP 	middle_image: autoDraw = False
+765.8786 	EXP 	left_image: autoDraw = False
+765.8786 	EXP 	right_image: autoDraw = False
+765.8786 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+765.8786 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+765.8786 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+765.8786 	EXP 	left_image: autoDraw = True
+765.8786 	EXP 	right_image: autoDraw = True
+766.7794 	EXP 	middle_image: autoDraw = True
+769.7128 	EXP 	Device response: <KeyPress from None: t=769.7009627000007, value=j, duration=None>
+769.7131 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+769.8011 	EXP 	Device response: <KeyPress from None: t=737.7252171, value=j, duration=32.06380920000083>
+769.8029 	DATA 	Keypress: j
+769.8109 	INFO 	Keyboard events cleared
+769.8108 	EXP 	middle_image: autoDraw = False
+769.8108 	EXP 	left_image: autoDraw = False
+769.8108 	EXP 	right_image: autoDraw = False
+769.8108 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+769.8108 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+769.8108 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+769.8108 	EXP 	left_image: autoDraw = True
+769.8108 	EXP 	right_image: autoDraw = True
+770.7126 	EXP 	middle_image: autoDraw = True
+776.5794 	EXP 	Device response: <KeyPress from None: t=776.5650418000005, value=j, duration=None>
+776.5798 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+776.6677 	EXP 	Device response: <KeyPress from None: t=740.3090928000001, value=j, duration=36.32795950000036>
+776.6698 	DATA 	Keypress: j
+776.6790 	INFO 	Keyboard events cleared
+776.6790 	EXP 	middle_image: autoDraw = False
+776.6790 	EXP 	left_image: autoDraw = False
+776.6790 	EXP 	right_image: autoDraw = False
+776.6790 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+776.6790 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+776.6790 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+776.6790 	EXP 	left_image: autoDraw = True
+776.6790 	EXP 	right_image: autoDraw = True
+777.5792 	EXP 	middle_image: autoDraw = True
+781.3626 	EXP 	Device response: <KeyPress from None: t=781.3570524999996, value=f, duration=None>
+781.3629 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+781.4515 	EXP 	Device response: <KeyPress from None: t=694.5489353000012, value=f, duration=86.88015409999934>
+781.4527 	DATA 	Keypress: f
+781.4616 	INFO 	Keyboard events cleared
+781.4615 	EXP 	middle_image: autoDraw = False
+781.4615 	EXP 	left_image: autoDraw = False
+781.4615 	EXP 	right_image: autoDraw = False
+781.4615 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+781.4615 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+781.4615 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+781.4615 	EXP 	left_image: autoDraw = True
+781.4615 	EXP 	right_image: autoDraw = True
+782.3624 	EXP 	middle_image: autoDraw = True
+784.9458 	EXP 	Device response: <KeyPress from None: t=784.9412224000007, value=j, duration=None>
+784.9462 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+785.0312 	EXP 	Device response: <KeyPress from None: t=755.9410294000008, value=j, duration=29.072116199999073>
+785.0324 	DATA 	Keypress: j
+785.0419 	INFO 	Keyboard events cleared
+785.0419 	EXP 	middle_image: autoDraw = False
+785.0419 	EXP 	left_image: autoDraw = False
+785.0419 	EXP 	right_image: autoDraw = False
+785.0419 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+785.0419 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+785.0419 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+785.0419 	EXP 	left_image: autoDraw = True
+785.0419 	EXP 	right_image: autoDraw = True
+785.9457 	EXP 	middle_image: autoDraw = True
+788.6459 	EXP 	Device response: <KeyPress from None: t=788.6450948000002, value=j, duration=None>
+788.6462 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+788.7413 	EXP 	Device response: <KeyPress from None: t=765.7649297999997, value=j, duration=22.95222300000023>
+788.7424 	DATA 	Keypress: j
+788.7522 	INFO 	Keyboard events cleared
+788.7522 	EXP 	middle_image: autoDraw = False
+788.7522 	EXP 	left_image: autoDraw = False
+788.7522 	EXP 	right_image: autoDraw = False
+788.7522 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_13.png'
+788.7522 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_13.png'
+788.7522 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_13.png'
+788.7522 	EXP 	left_image: autoDraw = True
+788.7522 	EXP 	right_image: autoDraw = True
+789.6457 	EXP 	middle_image: autoDraw = True
+790.8958 	EXP 	Device response: <KeyPress from None: t=790.893044800001, value=f, duration=None>
+790.8961 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+790.9847 	DATA 	Keypress: f
+790.9940 	INFO 	Keyboard events cleared
+790.9940 	EXP 	middle_image: autoDraw = False
+790.9940 	EXP 	left_image: autoDraw = False
+790.9940 	EXP 	right_image: autoDraw = False
+790.9940 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+790.9940 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+790.9940 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+790.9940 	EXP 	left_image: autoDraw = True
+790.9940 	EXP 	right_image: autoDraw = True
+791.8956 	EXP 	middle_image: autoDraw = True
+794.2791 	EXP 	Device response: <KeyPress from None: t=794.2770218000005, value=j, duration=None>
+794.2795 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+794.3724 	EXP 	Device response: <KeyPress from None: t=769.7009627000007, value=j, duration=24.64813469999899>
+794.3738 	DATA 	Keypress: j
+794.3829 	INFO 	Keyboard events cleared
+794.3828 	EXP 	middle_image: autoDraw = False
+794.3828 	EXP 	left_image: autoDraw = False
+794.3828 	EXP 	right_image: autoDraw = False
+794.3828 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_12.png'
+794.3828 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_12.png'
+794.3828 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_12.png'
+794.3828 	EXP 	left_image: autoDraw = True
+794.3828 	EXP 	right_image: autoDraw = True
+795.2790 	EXP 	middle_image: autoDraw = True
+802.5125 	EXP 	Device response: <KeyPress from None: t=802.5089487000005, value=f, duration=None>
+802.5128 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+802.6070 	EXP 	Device response: <KeyPress from None: t=706.6849533000004, value=f, duration=95.90419800000018>
+802.6086 	DATA 	Keypress: f
+802.6184 	INFO 	Keyboard events cleared
+802.6184 	EXP 	middle_image: autoDraw = False
+802.6184 	EXP 	left_image: autoDraw = False
+802.6184 	EXP 	right_image: autoDraw = False
+802.6184 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_12.png'
+802.6184 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_12.png'
+802.6184 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_12.png'
+802.6184 	EXP 	left_image: autoDraw = True
+802.6184 	EXP 	right_image: autoDraw = True
+803.5120 	EXP 	middle_image: autoDraw = True
+805.3290 	EXP 	Device response: <KeyPress from None: t=805.3251056999998, value=f, duration=None>
+805.3293 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+805.4237 	EXP 	Device response: <KeyPress from None: t=711.8372318000002, value=f, duration=93.58382720000009>
+805.4248 	DATA 	Keypress: f
+805.4343 	INFO 	Keyboard events cleared
+805.4342 	EXP 	middle_image: autoDraw = False
+805.4342 	EXP 	left_image: autoDraw = False
+805.4342 	EXP 	right_image: autoDraw = False
+805.4342 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_11.png'
+805.4342 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_11.png'
+805.4342 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_11.png'
+805.4342 	EXP 	left_image: autoDraw = True
+805.4342 	EXP 	right_image: autoDraw = True
+806.3288 	EXP 	middle_image: autoDraw = True
+811.8622 	EXP 	Device response: <KeyPress from None: t=811.861036100001, value=j, duration=None>
+811.8626 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+811.9497 	EXP 	Device response: <KeyPress from None: t=776.5650418000005, value=j, duration=35.3759771999994>
+811.9511 	DATA 	Keypress: j
+811.9603 	INFO 	Keyboard events cleared
+811.9602 	EXP 	middle_image: autoDraw = False
+811.9602 	EXP 	left_image: autoDraw = False
+811.9602 	EXP 	right_image: autoDraw = False
+811.9602 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+811.9602 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+811.9602 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+811.9602 	EXP 	left_image: autoDraw = True
+811.9602 	EXP 	right_image: autoDraw = True
+812.8620 	EXP 	middle_image: autoDraw = True
+818.4295 	DATA 	Keypress: f
+818.4454 	EXP 	Device response: <KeyPress from None: t=818.4290369000009, value=f, duration=None>
+818.4457 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+818.5335 	EXP 	Device response: <KeyPress from None: t=720.5489770000004, value=f, duration=97.9680014000005>
+818.5438 	INFO 	Keyboard events cleared
+818.5437 	EXP 	middle_image: autoDraw = False
+818.5437 	EXP 	left_image: autoDraw = False
+818.5437 	EXP 	right_image: autoDraw = False
+818.5437 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_13.png'
+818.5437 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_13.png'
+818.5437 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_13.png'
+818.5437 	EXP 	left_image: autoDraw = True
+818.5437 	EXP 	right_image: autoDraw = True
+819.4451 	EXP 	middle_image: autoDraw = True
+821.3288 	EXP 	Device response: <KeyPress from None: t=821.3170128000002, value=f, duration=None>
+821.3291 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+821.4168 	EXP 	Device response: <KeyPress from None: t=751.0371637000007, value=f, duration=70.37588909999977>
+821.4180 	DATA 	Keypress: f
+821.4271 	INFO 	Keyboard events cleared
+821.4271 	EXP 	middle_image: autoDraw = False
+821.4271 	EXP 	left_image: autoDraw = False
+821.4271 	EXP 	right_image: autoDraw = False
+821.4271 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_13.png'
+821.4271 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_13.png'
+821.4271 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_13.png'
+821.4271 	EXP 	left_image: autoDraw = True
+821.4271 	EXP 	right_image: autoDraw = True
+822.3283 	EXP 	middle_image: autoDraw = True
+823.2452 	EXP 	Device response: <KeyPress from None: t=823.2450231000003, value=j, duration=None>
+823.2455 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+823.3332 	EXP 	Device response: <KeyPress from None: t=784.9412224000007, value=j, duration=38.391817300000184>
+823.3345 	DATA 	Keypress: j
+823.3439 	INFO 	Keyboard events cleared
+823.3439 	EXP 	middle_image: autoDraw = False
+823.3439 	EXP 	left_image: autoDraw = False
+823.3439 	EXP 	right_image: autoDraw = False
+823.3439 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+823.3439 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+823.3439 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+823.3439 	EXP 	left_image: autoDraw = True
+823.3439 	EXP 	right_image: autoDraw = True
+824.2452 	EXP 	middle_image: autoDraw = True
+834.1452 	EXP 	Device response: <KeyPress from None: t=834.1329481000012, value=f, duration=None>
+834.1455 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+834.2319 	EXP 	Device response: <KeyPress from None: t=761.7969184000012, value=f, duration=72.40028029999849>
+834.2333 	DATA 	Keypress: f
+834.2423 	INFO 	Keyboard events cleared
+834.2423 	EXP 	middle_image: autoDraw = False
+834.2423 	EXP 	left_image: autoDraw = False
+834.2423 	EXP 	right_image: autoDraw = False
+834.2423 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+834.2423 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+834.2423 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+834.2423 	EXP 	left_image: autoDraw = True
+834.2423 	EXP 	right_image: autoDraw = True
+835.1448 	EXP 	middle_image: autoDraw = True
+852.7449 	EXP 	Device response: <KeyPress from None: t=852.7329384000004, value=j, duration=None>
+852.7453 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+852.8312 	EXP 	Device response: <KeyPress from None: t=788.6450948000002, value=j, duration=64.18404349999946>
+852.8324 	DATA 	Keypress: j
+852.8418 	INFO 	Keyboard events cleared
+852.8417 	EXP 	middle_image: autoDraw = False
+852.8417 	EXP 	left_image: autoDraw = False
+852.8417 	EXP 	right_image: autoDraw = False
+852.8417 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+852.8417 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+852.8417 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+852.8417 	EXP 	left_image: autoDraw = True
+852.8417 	EXP 	right_image: autoDraw = True
+853.7446 	EXP 	middle_image: autoDraw = True
+857.9446 	EXP 	Device response: <KeyPress from None: t=857.941035400001, value=f, duration=None>
+857.9450 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+858.0308 	EXP 	Device response: <KeyPress from None: t=781.3570524999996, value=f, duration=76.65590330000123>
+858.0320 	DATA 	Keypress: f
+858.0438 	INFO 	Keyboard events cleared
+858.0437 	EXP 	middle_image: autoDraw = False
+858.0437 	EXP 	left_image: autoDraw = False
+858.0437 	EXP 	right_image: autoDraw = False
+858.0437 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+858.0437 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+858.0437 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_14.png'
+858.0437 	EXP 	left_image: autoDraw = True
+858.0437 	EXP 	right_image: autoDraw = True
+858.9449 	EXP 	middle_image: autoDraw = True
+862.3115 	EXP 	Device response: <KeyPress from None: t=862.3089335000004, value=f, duration=None>
+862.3118 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+862.3979 	EXP 	Device response: <KeyPress from None: t=790.893044800001, value=f, duration=71.49597949999952>
+862.3990 	DATA 	Keypress: f
+862.4084 	INFO 	Keyboard events cleared
+862.4084 	EXP 	middle_image: autoDraw = False
+862.4084 	EXP 	left_image: autoDraw = False
+862.4084 	EXP 	right_image: autoDraw = False
+862.4084 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+862.4084 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+862.4084 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\direct_gaze.png'
+862.4084 	EXP 	left_image: autoDraw = True
+862.4084 	EXP 	right_image: autoDraw = True
+863.3111 	EXP 	middle_image: autoDraw = True
+866.2781 	EXP 	Device response: <KeyPress from None: t=866.2771200000007, value=f, duration=None>
+866.2784 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+866.3646 	EXP 	Device response: <KeyPress from None: t=802.5089487000005, value=f, duration=63.84006120000049>
+866.3659 	DATA 	Keypress: f
+866.3754 	INFO 	Keyboard events cleared
+866.3754 	EXP 	middle_image: autoDraw = False
+866.3754 	EXP 	left_image: autoDraw = False
+866.3754 	EXP 	right_image: autoDraw = False
+866.3754 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+866.3754 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+866.3754 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+866.3754 	EXP 	left_image: autoDraw = True
+866.3754 	EXP 	right_image: autoDraw = True
+867.2780 	EXP 	middle_image: autoDraw = True
+872.7948 	EXP 	Device response: <KeyPress from None: t=872.780999300001, value=f, duration=None>
+872.7951 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+872.8836 	EXP 	Device response: <KeyPress from None: t=805.3251056999998, value=f, duration=67.5359255000003>
+872.8848 	DATA 	Keypress: f
+872.8937 	INFO 	Keyboard events cleared
+872.8936 	EXP 	middle_image: autoDraw = False
+872.8936 	EXP 	left_image: autoDraw = False
+872.8936 	EXP 	right_image: autoDraw = False
+872.8936 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+872.8936 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+872.8936 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_R_15.png'
+872.8936 	EXP 	left_image: autoDraw = True
+872.8936 	EXP 	right_image: autoDraw = True
+873.7946 	EXP 	middle_image: autoDraw = True
+877.5446 	EXP 	Device response: <KeyPress from None: t=877.5329433000006, value=j, duration=None>
+877.5449 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+877.6321 	EXP 	Device response: <KeyPress from None: t=794.2770218000005, value=j, duration=83.34399060000032>
+877.6332 	DATA 	Keypress: j
+877.6423 	INFO 	Keyboard events cleared
+877.6423 	EXP 	middle_image: autoDraw = False
+877.6423 	EXP 	left_image: autoDraw = False
+877.6423 	EXP 	right_image: autoDraw = False
+877.6423 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+877.6423 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+877.6423 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc0\\gaze_L_15.png'
+877.6423 	EXP 	left_image: autoDraw = True
+877.6423 	EXP 	right_image: autoDraw = True
+878.5445 	EXP 	middle_image: autoDraw = True
+884.2777 	EXP 	Device response: <KeyPress from None: t=884.2689234999998, value=f, duration=None>
+884.2794 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'xPos': np.float64(5.9), 'stimulusSet': 'ecc10neg', 'whichImage': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+884.2806 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+884.3690 	EXP 	Device response: <KeyPress from None: t=818.4290369000009, value=f, duration=65.8959648>
+884.3701 	DATA 	Keypress: f
+884.3804 	INFO 	Keyboard events cleared
+884.3804 	EXP 	middle_image: autoDraw = False
+884.3804 	EXP 	left_image: autoDraw = False
+884.3804 	EXP 	right_image: autoDraw = False
+884.3804 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+884.3804 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+884.3804 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+884.3804 	EXP 	middle_image: autoDraw = True
+884.3804 	EXP 	left_image: autoDraw = True
+885.2944 	EXP 	right_image: autoDraw = True
+887.9113 	EXP 	Device response: <KeyPress from None: t=887.9090627000005, value=f, duration=None>
+887.9116 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+888.0020 	EXP 	Device response: <KeyPress from None: t=821.3170128000002, value=f, duration=66.67998559999978>
+888.0031 	DATA 	Keypress: f
+888.0122 	INFO 	Keyboard events cleared
+888.0121 	EXP 	middle_image: autoDraw = False
+888.0121 	EXP 	left_image: autoDraw = False
+888.0121 	EXP 	right_image: autoDraw = False
+888.0121 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+888.0121 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+888.0121 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+888.0121 	EXP 	middle_image: autoDraw = True
+888.0121 	EXP 	left_image: autoDraw = True
+888.9110 	EXP 	right_image: autoDraw = True
+889.8111 	EXP 	Device response: <KeyPress from None: t=889.8049351999998, value=j, duration=None>
+889.8114 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+889.8995 	EXP 	Device response: <KeyPress from None: t=811.861036100001, value=j, duration=78.03209450000031>
+889.9008 	DATA 	Keypress: j
+889.9097 	INFO 	Keyboard events cleared
+889.9095 	EXP 	middle_image: autoDraw = False
+889.9095 	EXP 	left_image: autoDraw = False
+889.9095 	EXP 	right_image: autoDraw = False
+889.9095 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+889.9095 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+889.9095 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+889.9095 	EXP 	middle_image: autoDraw = True
+889.9095 	EXP 	left_image: autoDraw = True
+890.8108 	EXP 	right_image: autoDraw = True
+894.6111 	EXP 	Device response: <KeyPress from None: t=894.6050912999999, value=f, duration=None>
+894.6114 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+894.6973 	EXP 	Device response: <KeyPress from None: t=834.1329481000012, value=f, duration=60.56019709999964>
+894.6984 	DATA 	Keypress: f
+894.7083 	INFO 	Keyboard events cleared
+894.7082 	EXP 	middle_image: autoDraw = False
+894.7082 	EXP 	left_image: autoDraw = False
+894.7082 	EXP 	right_image: autoDraw = False
+894.7082 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+894.7082 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+894.7082 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+894.7082 	EXP 	middle_image: autoDraw = True
+894.7082 	EXP 	left_image: autoDraw = True
+895.6107 	EXP 	right_image: autoDraw = True
+898.0108 	EXP 	Device response: <KeyPress from None: t=898.0051101000008, value=f, duration=None>
+898.0111 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+898.0981 	EXP 	Device response: <KeyPress from None: t=857.941035400001, value=f, duration=40.15222519999952>
+898.0991 	DATA 	Keypress: f
+898.1097 	INFO 	Keyboard events cleared
+898.1097 	EXP 	middle_image: autoDraw = False
+898.1097 	EXP 	left_image: autoDraw = False
+898.1097 	EXP 	right_image: autoDraw = False
+898.1097 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+898.1097 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+898.1097 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+898.1097 	EXP 	middle_image: autoDraw = True
+898.1097 	EXP 	left_image: autoDraw = True
+899.0107 	EXP 	right_image: autoDraw = True
+901.7776 	EXP 	Device response: <KeyPress from None: t=901.7651206999999, value=f, duration=None>
+901.7779 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+901.8657 	EXP 	Device response: <KeyPress from None: t=862.3089335000004, value=f, duration=39.51220789999934>
+901.8669 	DATA 	Keypress: f
+901.8763 	INFO 	Keyboard events cleared
+901.8763 	EXP 	middle_image: autoDraw = False
+901.8763 	EXP 	left_image: autoDraw = False
+901.8763 	EXP 	right_image: autoDraw = False
+901.8763 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+901.8763 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+901.8763 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+901.8763 	EXP 	middle_image: autoDraw = True
+901.8763 	EXP 	left_image: autoDraw = True
+902.7774 	EXP 	right_image: autoDraw = True
+903.7107 	EXP 	Device response: <KeyPress from None: t=903.7090028000002, value=j, duration=None>
+903.7111 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+903.7977 	EXP 	Device response: <KeyPress from None: t=823.2450231000003, value=j, duration=80.54408270000022>
+903.7989 	DATA 	Keypress: j
+903.8085 	INFO 	Keyboard events cleared
+903.8084 	EXP 	middle_image: autoDraw = False
+903.8084 	EXP 	left_image: autoDraw = False
+903.8084 	EXP 	right_image: autoDraw = False
+903.8084 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+903.8084 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+903.8084 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+903.8084 	EXP 	middle_image: autoDraw = True
+903.8084 	EXP 	left_image: autoDraw = True
+904.7106 	EXP 	right_image: autoDraw = True
+905.8442 	EXP 	Device response: <KeyPress from None: t=905.837012, value=f, duration=None>
+905.8445 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+905.9302 	EXP 	Device response: <KeyPress from None: t=866.2771200000007, value=f, duration=39.61609619999945>
+905.9315 	DATA 	Keypress: f
+905.9405 	INFO 	Keyboard events cleared
+905.9405 	EXP 	middle_image: autoDraw = False
+905.9405 	EXP 	left_image: autoDraw = False
+905.9405 	EXP 	right_image: autoDraw = False
+905.9405 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+905.9405 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+905.9405 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+905.9405 	EXP 	middle_image: autoDraw = True
+905.9405 	EXP 	left_image: autoDraw = True
+906.8440 	EXP 	right_image: autoDraw = True
+911.0441 	EXP 	Device response: <KeyPress from None: t=911.0370674000005, value=j, duration=None>
+911.0445 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+911.1325 	EXP 	Device response: <KeyPress from None: t=852.7329384000004, value=j, duration=58.37629559999914>
+911.1339 	DATA 	Keypress: j
+911.1428 	INFO 	Keyboard events cleared
+911.1427 	EXP 	middle_image: autoDraw = False
+911.1427 	EXP 	left_image: autoDraw = False
+911.1427 	EXP 	right_image: autoDraw = False
+911.1427 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_13.png'
+911.1427 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_13.png'
+911.1427 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_13.png'
+911.1427 	EXP 	middle_image: autoDraw = True
+911.1427 	EXP 	left_image: autoDraw = True
+912.0439 	EXP 	right_image: autoDraw = True
+913.0607 	EXP 	Device response: <KeyPress from None: t=913.0530675999998, value=j, duration=None>
+913.0611 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+913.1480 	EXP 	Device response: <KeyPress from None: t=877.5329433000006, value=j, duration=35.59216439999909>
+913.1493 	DATA 	Keypress: j
+913.1583 	INFO 	Keyboard events cleared
+913.1583 	EXP 	middle_image: autoDraw = False
+913.1583 	EXP 	left_image: autoDraw = False
+913.1583 	EXP 	right_image: autoDraw = False
+913.1583 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+913.1583 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+913.1583 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+913.1583 	EXP 	middle_image: autoDraw = True
+913.1583 	EXP 	left_image: autoDraw = True
+914.0606 	EXP 	right_image: autoDraw = True
+915.4606 	EXP 	Device response: <KeyPress from None: t=915.4449065000008, value=j, duration=None>
+915.4610 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+915.5480 	EXP 	Device response: <KeyPress from None: t=889.8049351999998, value=j, duration=25.71230040000046>
+915.5491 	DATA 	Keypress: j
+915.5582 	INFO 	Keyboard events cleared
+915.5581 	EXP 	middle_image: autoDraw = False
+915.5581 	EXP 	left_image: autoDraw = False
+915.5581 	EXP 	right_image: autoDraw = False
+915.5581 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+915.5581 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+915.5581 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+915.5581 	EXP 	middle_image: autoDraw = True
+915.5581 	EXP 	left_image: autoDraw = True
+916.4605 	EXP 	right_image: autoDraw = True
+917.8606 	EXP 	Device response: <KeyPress from None: t=917.844994000001, value=f, duration=None>
+917.8609 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+917.9491 	EXP 	Device response: <KeyPress from None: t=872.780999300001, value=f, duration=45.15219479999905>
+917.9503 	DATA 	Keypress: f
+917.9602 	INFO 	Keyboard events cleared
+917.9602 	EXP 	middle_image: autoDraw = False
+917.9602 	EXP 	left_image: autoDraw = False
+917.9602 	EXP 	right_image: autoDraw = False
+917.9602 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+917.9602 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+917.9602 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+917.9602 	EXP 	middle_image: autoDraw = True
+917.9602 	EXP 	left_image: autoDraw = True
+918.8604 	EXP 	right_image: autoDraw = True
+920.0107 	EXP 	Device response: <KeyPress from None: t=920.0050513000006, value=f, duration=None>
+920.0110 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+920.0988 	EXP 	Device response: <KeyPress from None: t=884.2689234999998, value=f, duration=35.80021020000095>
+920.0998 	DATA 	Keypress: f
+920.1088 	INFO 	Keyboard events cleared
+920.1088 	EXP 	middle_image: autoDraw = False
+920.1088 	EXP 	left_image: autoDraw = False
+920.1088 	EXP 	right_image: autoDraw = False
+920.1088 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_14.png'
+920.1088 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_14.png'
+920.1088 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_14.png'
+920.1088 	EXP 	middle_image: autoDraw = True
+920.1088 	EXP 	left_image: autoDraw = True
+921.0105 	EXP 	right_image: autoDraw = True
+923.5772 	EXP 	Device response: <KeyPress from None: t=923.5648963000003, value=f, duration=None>
+923.5775 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+923.6642 	EXP 	Device response: <KeyPress from None: t=887.9090627000005, value=f, duration=35.72008529999948>
+923.6657 	DATA 	Keypress: f
+923.6747 	INFO 	Keyboard events cleared
+923.6746 	EXP 	middle_image: autoDraw = False
+923.6746 	EXP 	left_image: autoDraw = False
+923.6746 	EXP 	right_image: autoDraw = False
+923.6746 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+923.6746 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+923.6746 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+923.6746 	EXP 	middle_image: autoDraw = True
+923.6746 	EXP 	left_image: autoDraw = True
+924.5771 	EXP 	right_image: autoDraw = True
+925.3937 	EXP 	Device response: <KeyPress from None: t=925.3888334000003, value=j, duration=None>
+925.3940 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+925.4813 	EXP 	Device response: <KeyPress from None: t=903.7090028000002, value=j, duration=21.74402949999967>
+925.4824 	DATA 	Keypress: j
+925.4918 	INFO 	Keyboard events cleared
+925.4917 	EXP 	middle_image: autoDraw = False
+925.4917 	EXP 	left_image: autoDraw = False
+925.4917 	EXP 	right_image: autoDraw = False
+925.4917 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+925.4917 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+925.4917 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+925.4917 	EXP 	middle_image: autoDraw = True
+925.4917 	EXP 	left_image: autoDraw = True
+926.3938 	EXP 	right_image: autoDraw = True
+927.4939 	EXP 	Device response: <KeyPress from None: t=927.4929972999998, value=j, duration=None>
+927.4942 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+927.5820 	EXP 	Device response: <KeyPress from None: t=911.0370674000005, value=j, duration=16.527889299999515>
+927.5831 	DATA 	Keypress: j
+927.5922 	INFO 	Keyboard events cleared
+927.5921 	EXP 	middle_image: autoDraw = False
+927.5921 	EXP 	left_image: autoDraw = False
+927.5921 	EXP 	right_image: autoDraw = False
+927.5921 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+927.5921 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+927.5921 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+927.5921 	EXP 	middle_image: autoDraw = True
+927.5921 	EXP 	left_image: autoDraw = True
+928.4936 	EXP 	right_image: autoDraw = True
+929.5440 	EXP 	Device response: <KeyPress from None: t=929.5409003000004, value=f, duration=None>
+929.5443 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+929.6321 	EXP 	Device response: <KeyPress from None: t=894.6050912999999, value=f, duration=35.023985699999685>
+929.6332 	DATA 	Keypress: f
+929.6431 	INFO 	Keyboard events cleared
+929.6431 	EXP 	middle_image: autoDraw = False
+929.6431 	EXP 	left_image: autoDraw = False
+929.6431 	EXP 	right_image: autoDraw = False
+929.6431 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+929.6431 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+929.6431 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+929.6431 	EXP 	middle_image: autoDraw = True
+929.6431 	EXP 	left_image: autoDraw = True
+930.5435 	EXP 	right_image: autoDraw = True
+931.5773 	EXP 	Device response: <KeyPress from None: t=931.5649602000012, value=j, duration=None>
+931.5776 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+931.6647 	EXP 	Device response: <KeyPress from None: t=913.0530675999998, value=j, duration=18.583895400000983>
+931.6660 	DATA 	Keypress: j
+931.6748 	INFO 	Keyboard events cleared
+931.6748 	EXP 	middle_image: autoDraw = False
+931.6748 	EXP 	left_image: autoDraw = False
+931.6748 	EXP 	right_image: autoDraw = False
+931.6748 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_14.png'
+931.6748 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_14.png'
+931.6748 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_14.png'
+931.6748 	EXP 	middle_image: autoDraw = True
+931.6748 	EXP 	left_image: autoDraw = True
+932.5770 	EXP 	right_image: autoDraw = True
+935.1771 	EXP 	Device response: <KeyPress from None: t=935.1732640000009, value=j, duration=None>
+935.1774 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+935.2662 	EXP 	Device response: <KeyPress from None: t=915.4449065000008, value=j, duration=19.784032800000205>
+935.2682 	DATA 	Keypress: j
+935.2767 	INFO 	Keyboard events cleared
+935.2767 	EXP 	middle_image: autoDraw = False
+935.2767 	EXP 	left_image: autoDraw = False
+935.2767 	EXP 	right_image: autoDraw = False
+935.2767 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+935.2767 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+935.2767 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+935.2767 	EXP 	middle_image: autoDraw = True
+935.2767 	EXP 	left_image: autoDraw = True
+936.1770 	EXP 	right_image: autoDraw = True
+943.7269 	EXP 	Device response: <KeyPress from None: t=943.717273100001, value=f, duration=None>
+943.7272 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+943.8141 	EXP 	Device response: <KeyPress from None: t=898.0051101000008, value=f, duration=45.78389140000036>
+943.8153 	DATA 	Keypress: f
+943.8254 	INFO 	Keyboard events cleared
+943.8254 	EXP 	middle_image: autoDraw = False
+943.8254 	EXP 	left_image: autoDraw = False
+943.8254 	EXP 	right_image: autoDraw = False
+943.8254 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+943.8254 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+943.8254 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+943.8254 	EXP 	middle_image: autoDraw = True
+943.8254 	EXP 	left_image: autoDraw = True
+944.7266 	EXP 	right_image: autoDraw = True
+948.7104 	EXP 	Device response: <KeyPress from None: t=948.7010006, value=f, duration=None>
+948.7107 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+948.8002 	EXP 	Device response: <KeyPress from None: t=901.7651206999999, value=f, duration=47.03182449999986>
+948.8018 	DATA 	Keypress: f
+948.8106 	INFO 	Keyboard events cleared
+948.8105 	EXP 	middle_image: autoDraw = False
+948.8105 	EXP 	left_image: autoDraw = False
+948.8105 	EXP 	right_image: autoDraw = False
+948.8105 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+948.8105 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+948.8105 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+948.8105 	EXP 	middle_image: autoDraw = True
+948.8105 	EXP 	left_image: autoDraw = True
+949.7101 	EXP 	right_image: autoDraw = True
+952.9269 	EXP 	Device response: <KeyPress from None: t=952.916954100001, value=f, duration=None>
+952.9272 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+953.0132 	EXP 	Device response: <KeyPress from None: t=905.837012, value=f, duration=47.168009700000766>
+953.0146 	DATA 	Keypress: f
+953.0241 	INFO 	Keyboard events cleared
+953.0240 	EXP 	middle_image: autoDraw = False
+953.0240 	EXP 	left_image: autoDraw = False
+953.0240 	EXP 	right_image: autoDraw = False
+953.0240 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+953.0240 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+953.0240 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+953.0240 	EXP 	middle_image: autoDraw = True
+953.0240 	EXP 	left_image: autoDraw = True
+953.9264 	EXP 	right_image: autoDraw = True
+955.8933 	EXP 	Device response: <KeyPress from None: t=955.8930356000001, value=j, duration=None>
+955.8936 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+955.9817 	EXP 	Device response: <KeyPress from None: t=925.3888334000003, value=j, duration=30.584247299999333>
+955.9830 	DATA 	Keypress: j
+955.9918 	INFO 	Keyboard events cleared
+955.9918 	EXP 	middle_image: autoDraw = False
+955.9918 	EXP 	left_image: autoDraw = False
+955.9918 	EXP 	right_image: autoDraw = False
+955.9918 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+955.9918 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+955.9918 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+955.9918 	EXP 	middle_image: autoDraw = True
+955.9918 	EXP 	left_image: autoDraw = True
+956.8930 	EXP 	right_image: autoDraw = True
+958.1934 	EXP 	Device response: <KeyPress from None: t=958.1889704000005, value=f, duration=None>
+958.1938 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+958.2809 	DATA 	Keypress: f
+958.2906 	INFO 	Keyboard events cleared
+958.2906 	EXP 	middle_image: autoDraw = False
+958.2906 	EXP 	left_image: autoDraw = False
+958.2906 	EXP 	right_image: autoDraw = False
+958.2906 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+958.2906 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+958.2906 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+958.2906 	EXP 	middle_image: autoDraw = True
+958.2906 	EXP 	left_image: autoDraw = True
+958.2984 	EXP 	Device response: <KeyPress from None: t=917.844994000001, value=f, duration=40.447961799998666>
+959.1933 	EXP 	right_image: autoDraw = True
+965.2773 	DATA 	Keypress: j
+965.2937 	EXP 	Device response: <KeyPress from None: t=965.2768935000004, value=j, duration=None>
+965.2940 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+965.3810 	EXP 	Device response: <KeyPress from None: t=927.4929972999998, value=j, duration=37.85604680000142>
+965.3925 	INFO 	Keyboard events cleared
+965.3925 	EXP 	middle_image: autoDraw = False
+965.3925 	EXP 	left_image: autoDraw = False
+965.3925 	EXP 	right_image: autoDraw = False
+965.3925 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+965.3925 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+965.3925 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+965.3925 	EXP 	middle_image: autoDraw = True
+965.3925 	EXP 	left_image: autoDraw = True
+966.2932 	EXP 	right_image: autoDraw = True
+967.7433 	EXP 	Device response: <KeyPress from None: t=967.7409359000012, value=j, duration=None>
+967.7436 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+967.8322 	EXP 	Device response: <KeyPress from None: t=931.5649602000012, value=j, duration=36.248017599999>
+967.8339 	DATA 	Keypress: j
+967.8420 	INFO 	Keyboard events cleared
+967.8419 	EXP 	middle_image: autoDraw = False
+967.8419 	EXP 	left_image: autoDraw = False
+967.8419 	EXP 	right_image: autoDraw = False
+967.8419 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+967.8419 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+967.8419 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+967.8419 	EXP 	middle_image: autoDraw = True
+967.8419 	EXP 	left_image: autoDraw = True
+968.7429 	EXP 	right_image: autoDraw = True
+970.1265 	EXP 	Device response: <KeyPress from None: t=970.125036200001, value=f, duration=None>
+970.1268 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+970.2162 	DATA 	Keypress: f
+970.2256 	INFO 	Keyboard events cleared
+970.2255 	EXP 	middle_image: autoDraw = False
+970.2255 	EXP 	left_image: autoDraw = False
+970.2255 	EXP 	right_image: autoDraw = False
+970.2255 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+970.2255 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+970.2255 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+970.2255 	EXP 	middle_image: autoDraw = True
+970.2255 	EXP 	left_image: autoDraw = True
+970.2597 	EXP 	Device response: <KeyPress from None: t=920.0050513000006, value=f, duration=50.23994230000062>
+971.1262 	EXP 	right_image: autoDraw = True
+972.7765 	EXP 	Device response: <KeyPress from None: t=972.7729955000013, value=f, duration=None>
+972.7768 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+972.8632 	EXP 	Device response: <KeyPress from None: t=923.5648963000003, value=f, duration=49.280163400000674>
+972.8644 	DATA 	Keypress: f
+972.8740 	INFO 	Keyboard events cleared
+972.8740 	EXP 	middle_image: autoDraw = False
+972.8740 	EXP 	left_image: autoDraw = False
+972.8740 	EXP 	right_image: autoDraw = False
+972.8740 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+972.8740 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+972.8740 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+972.8740 	EXP 	middle_image: autoDraw = True
+972.8740 	EXP 	left_image: autoDraw = True
+973.7763 	EXP 	right_image: autoDraw = True
+978.0765 	EXP 	Device response: <KeyPress from None: t=978.0609918000009, value=j, duration=None>
+978.0769 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+978.1657 	EXP 	Device response: <KeyPress from None: t=935.1732640000009, value=j, duration=42.95981269999902>
+978.1669 	DATA 	Keypress: j
+978.1760 	INFO 	Keyboard events cleared
+978.1759 	EXP 	middle_image: autoDraw = False
+978.1759 	EXP 	left_image: autoDraw = False
+978.1759 	EXP 	right_image: autoDraw = False
+978.1759 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+978.1759 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+978.1759 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+978.1759 	EXP 	middle_image: autoDraw = True
+978.1759 	EXP 	left_image: autoDraw = True
+979.0763 	EXP 	right_image: autoDraw = True
+981.5097 	EXP 	Device response: <KeyPress from None: t=981.5090299000003, value=j, duration=None>
+981.5101 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+981.5974 	EXP 	Device response: <KeyPress from None: t=955.8930356000001, value=j, duration=25.69607360000009>
+981.5988 	DATA 	Keypress: j
+981.6079 	INFO 	Keyboard events cleared
+981.6078 	EXP 	middle_image: autoDraw = False
+981.6078 	EXP 	left_image: autoDraw = False
+981.6078 	EXP 	right_image: autoDraw = False
+981.6078 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+981.6078 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+981.6078 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+981.6078 	EXP 	middle_image: autoDraw = True
+981.6078 	EXP 	left_image: autoDraw = True
+982.5095 	EXP 	right_image: autoDraw = True
+983.7264 	EXP 	Device response: <KeyPress from None: t=983.7252005999999, value=f, duration=None>
+983.7267 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+983.8128 	EXP 	Device response: <KeyPress from None: t=929.5409003000004, value=f, duration=54.26429260000077>
+983.8140 	DATA 	Keypress: f
+983.8232 	INFO 	Keyboard events cleared
+983.8231 	EXP 	middle_image: autoDraw = False
+983.8231 	EXP 	left_image: autoDraw = False
+983.8231 	EXP 	right_image: autoDraw = False
+983.8231 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+983.8231 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+983.8231 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+983.8231 	EXP 	middle_image: autoDraw = True
+983.8231 	EXP 	left_image: autoDraw = True
+984.7261 	EXP 	right_image: autoDraw = True
+989.4095 	EXP 	Device response: <KeyPress from None: t=989.3969103, value=j, duration=None>
+989.4098 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+989.4983 	EXP 	Device response: <KeyPress from None: t=965.2768935000004, value=j, duration=24.21612559999994>
+989.4994 	DATA 	Keypress: j
+989.5085 	INFO 	Keyboard events cleared
+989.5085 	EXP 	middle_image: autoDraw = False
+989.5085 	EXP 	left_image: autoDraw = False
+989.5085 	EXP 	right_image: autoDraw = False
+989.5085 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+989.5085 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+989.5085 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+989.5085 	EXP 	middle_image: autoDraw = True
+989.5085 	EXP 	left_image: autoDraw = True
+990.4094 	EXP 	right_image: autoDraw = True
+995.2928 	EXP 	Device response: <KeyPress from None: t=995.2771324000005, value=f, duration=None>
+995.2932 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+995.3798 	DATA 	Keypress: f
+995.3893 	INFO 	Keyboard events cleared
+995.3893 	EXP 	middle_image: autoDraw = False
+995.3893 	EXP 	left_image: autoDraw = False
+995.3893 	EXP 	right_image: autoDraw = False
+995.3893 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+995.3893 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+995.3893 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+995.3893 	EXP 	middle_image: autoDraw = True
+995.3893 	EXP 	left_image: autoDraw = True
+996.2927 	EXP 	right_image: autoDraw = True
+997.8762 	EXP 	Device response: <KeyPress from None: t=997.8608634000011, value=j, duration=None>
+997.8765 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+997.9645 	DATA 	Keypress: j
+997.9726 	INFO 	Keyboard events cleared
+997.9724 	EXP 	middle_image: autoDraw = False
+997.9724 	EXP 	left_image: autoDraw = False
+997.9724 	EXP 	right_image: autoDraw = False
+997.9724 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+997.9724 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+997.9724 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+997.9724 	EXP 	middle_image: autoDraw = True
+997.9724 	EXP 	left_image: autoDraw = True
+998.8759 	EXP 	right_image: autoDraw = True
+1001.3929 	EXP 	Device response: <KeyPress from None: t=1001.3809550000005, value=f, duration=None>
+1001.3931 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+1001.4835 	EXP 	Device response: <KeyPress from None: t=943.717273100001, value=f, duration=57.743686899999375>
+1001.4848 	DATA 	Keypress: f
+1001.4963 	INFO 	Keyboard events cleared
+1001.4962 	EXP 	middle_image: autoDraw = False
+1001.4962 	EXP 	left_image: autoDraw = False
+1001.4962 	EXP 	right_image: autoDraw = False
+1001.4962 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1001.4962 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1001.4962 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1001.4962 	EXP 	middle_image: autoDraw = True
+1001.4962 	EXP 	left_image: autoDraw = True
+1002.3924 	EXP 	right_image: autoDraw = True
+1004.6928 	EXP 	Device response: <KeyPress from None: t=1004.6849817000002, value=j, duration=None>
+1004.6931 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+1004.7810 	EXP 	Device response: <KeyPress from None: t=967.7409359000012, value=j, duration=37.03200370000013>
+1004.7822 	DATA 	Keypress: j
+1004.7919 	INFO 	Keyboard events cleared
+1004.7919 	EXP 	middle_image: autoDraw = False
+1004.7919 	EXP 	left_image: autoDraw = False
+1004.7919 	EXP 	right_image: autoDraw = False
+1004.7919 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1004.7919 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1004.7919 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1004.7919 	EXP 	middle_image: autoDraw = True
+1004.7919 	EXP 	left_image: autoDraw = True
+1005.6926 	EXP 	right_image: autoDraw = True
+1007.1928 	EXP 	Device response: <KeyPress from None: t=1007.1809688000012, value=j, duration=None>
+1007.1931 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+1007.2836 	EXP 	Device response: <KeyPress from None: t=978.0609918000009, value=j, duration=29.183935699998983>
+1007.2847 	DATA 	Keypress: j
+1007.2940 	INFO 	Keyboard events cleared
+1007.2939 	EXP 	middle_image: autoDraw = False
+1007.2939 	EXP 	left_image: autoDraw = False
+1007.2939 	EXP 	right_image: autoDraw = False
+1007.2939 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1007.2939 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1007.2939 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1007.2939 	EXP 	middle_image: autoDraw = True
+1007.2939 	EXP 	left_image: autoDraw = True
+1008.1926 	EXP 	right_image: autoDraw = True
+1012.0427 	EXP 	Device response: <KeyPress from None: t=1012.0289279000008, value=j, duration=None>
+1012.0430 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+1012.1304 	EXP 	Device response: <KeyPress from None: t=981.5090299000003, value=j, duration=30.59206020000056>
+1012.1315 	DATA 	Keypress: j
+1012.1414 	INFO 	Keyboard events cleared
+1012.1413 	EXP 	middle_image: autoDraw = False
+1012.1413 	EXP 	left_image: autoDraw = False
+1012.1413 	EXP 	right_image: autoDraw = False
+1012.1413 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1012.1413 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1012.1413 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1012.1413 	EXP 	middle_image: autoDraw = True
+1012.1413 	EXP 	left_image: autoDraw = True
+1013.0425 	EXP 	right_image: autoDraw = True
+1013.8427 	EXP 	Device response: <KeyPress from None: t=1013.8290119000012, value=f, duration=None>
+1013.8430 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+1013.9316 	DATA 	Keypress: f
+1013.9402 	INFO 	Keyboard events cleared
+1013.9402 	EXP 	middle_image: autoDraw = False
+1013.9402 	EXP 	left_image: autoDraw = False
+1013.9402 	EXP 	right_image: autoDraw = False
+1013.9402 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1013.9402 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1013.9402 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1013.9402 	EXP 	middle_image: autoDraw = True
+1013.9402 	EXP 	left_image: autoDraw = True
+1013.9478 	EXP 	Device response: <KeyPress from None: t=948.7010006, value=f, duration=65.24001930000122>
+1014.8425 	EXP 	right_image: autoDraw = True
+1017.2924 	EXP 	Device response: <KeyPress from None: t=1017.285035500001, value=j, duration=None>
+1017.2928 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+1017.3787 	EXP 	Device response: <KeyPress from None: t=989.3969103, value=j, duration=27.960103700001127>
+1017.3799 	DATA 	Keypress: j
+1017.3890 	INFO 	Keyboard events cleared
+1017.3890 	EXP 	middle_image: autoDraw = False
+1017.3890 	EXP 	left_image: autoDraw = False
+1017.3890 	EXP 	right_image: autoDraw = False
+1017.3890 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1017.3890 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1017.3890 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1017.3890 	EXP 	middle_image: autoDraw = True
+1017.3890 	EXP 	left_image: autoDraw = True
+1018.2924 	EXP 	right_image: autoDraw = True
+1020.4092 	EXP 	Device response: <KeyPress from None: t=1020.3970093999997, value=f, duration=None>
+1020.4096 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+1020.4953 	DATA 	Keypress: f
+1020.5050 	INFO 	Keyboard events cleared
+1020.5050 	EXP 	middle_image: autoDraw = False
+1020.5050 	EXP 	left_image: autoDraw = False
+1020.5050 	EXP 	right_image: autoDraw = False
+1020.5050 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1020.5050 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1020.5050 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1020.5050 	EXP 	middle_image: autoDraw = True
+1020.5050 	EXP 	left_image: autoDraw = True
+1021.4090 	EXP 	right_image: autoDraw = True
+1023.4259 	EXP 	Device response: <KeyPress from None: t=1023.4209037, value=j, duration=None>
+1023.4262 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+1023.5132 	EXP 	Device response: <KeyPress from None: t=997.8608634000011, value=j, duration=25.63223089999883>
+1023.5147 	DATA 	Keypress: j
+1023.5234 	INFO 	Keyboard events cleared
+1023.5233 	EXP 	middle_image: autoDraw = False
+1023.5233 	EXP 	left_image: autoDraw = False
+1023.5233 	EXP 	right_image: autoDraw = False
+1023.5233 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+1023.5233 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+1023.5233 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+1023.5233 	EXP 	middle_image: autoDraw = True
+1023.5233 	EXP 	left_image: autoDraw = True
+1024.4257 	EXP 	right_image: autoDraw = True
+1028.0936 	DATA 	Keypress: f
+1028.1093 	EXP 	Device response: <KeyPress from None: t=1028.0930234000007, value=f, duration=None>
+1028.1096 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+1028.2076 	EXP 	Device response: <KeyPress from None: t=952.916954100001, value=f, duration=75.25606089999928>
+1028.2223 	INFO 	Keyboard events cleared
+1028.2223 	EXP 	middle_image: autoDraw = False
+1028.2223 	EXP 	left_image: autoDraw = False
+1028.2223 	EXP 	right_image: autoDraw = False
+1028.2223 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1028.2223 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1028.2223 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_14.png'
+1028.2223 	EXP 	middle_image: autoDraw = True
+1028.2223 	EXP 	left_image: autoDraw = True
+1029.1091 	EXP 	right_image: autoDraw = True
+1031.4258 	EXP 	Device response: <KeyPress from None: t=1031.4209757000008, value=j, duration=None>
+1031.4261 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+1031.5143 	EXP 	Device response: <KeyPress from None: t=1004.6849817000002, value=j, duration=26.808089199999813>
+1031.5156 	DATA 	Keypress: j
+1031.5253 	INFO 	Keyboard events cleared
+1031.5253 	EXP 	middle_image: autoDraw = False
+1031.5253 	EXP 	left_image: autoDraw = False
+1031.5253 	EXP 	right_image: autoDraw = False
+1031.5253 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+1031.5253 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+1031.5253 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_L_15.png'
+1031.5253 	EXP 	middle_image: autoDraw = True
+1031.5253 	EXP 	left_image: autoDraw = True
+1032.4258 	EXP 	right_image: autoDraw = True
+1033.9590 	EXP 	Device response: <KeyPress from None: t=1033.9569523999999, value=j, duration=None>
+1033.9593 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+1034.0453 	EXP 	Device response: <KeyPress from None: t=1007.1809688000012, value=j, duration=26.84815290000006>
+1034.0465 	DATA 	Keypress: j
+1034.0572 	INFO 	Keyboard events cleared
+1034.0572 	EXP 	middle_image: autoDraw = False
+1034.0572 	EXP 	left_image: autoDraw = False
+1034.0572 	EXP 	right_image: autoDraw = False
+1034.0572 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1034.0572 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1034.0572 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1034.0572 	EXP 	middle_image: autoDraw = True
+1034.0572 	EXP 	left_image: autoDraw = True
+1034.9589 	EXP 	right_image: autoDraw = True
+1040.9924 	EXP 	Device response: <KeyPress from None: t=1040.980898400001, value=f, duration=None>
+1040.9928 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+1041.0816 	DATA 	Keypress: f
+1041.0908 	INFO 	Keyboard events cleared
+1041.0907 	EXP 	middle_image: autoDraw = False
+1041.0907 	EXP 	left_image: autoDraw = False
+1041.0907 	EXP 	right_image: autoDraw = False
+1041.0907 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1041.0907 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1041.0907 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1041.0907 	EXP 	middle_image: autoDraw = True
+1041.0907 	EXP 	left_image: autoDraw = True
+1041.0983 	EXP 	Device response: <KeyPress from None: t=958.1889704000005, value=f, duration=82.90392740000061>
+1041.9921 	EXP 	right_image: autoDraw = True
+1047.3422 	EXP 	Device response: <KeyPress from None: t=1047.332891, value=f, duration=None>
+1047.3425 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+1047.4323 	EXP 	Device response: <KeyPress from None: t=970.125036200001, value=f, duration=77.28795720000016>
+1047.4335 	DATA 	Keypress: f
+1047.4426 	INFO 	Keyboard events cleared
+1047.4426 	EXP 	middle_image: autoDraw = False
+1047.4426 	EXP 	left_image: autoDraw = False
+1047.4426 	EXP 	right_image: autoDraw = False
+1047.4426 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1047.4426 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1047.4426 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1047.4426 	EXP 	middle_image: autoDraw = True
+1047.4426 	EXP 	left_image: autoDraw = True
+1048.3420 	EXP 	right_image: autoDraw = True
+1049.0588 	EXP 	Device response: <KeyPress from None: t=1049.052875700001, value=j, duration=None>
+1049.0591 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+1049.1453 	EXP 	Device response: <KeyPress from None: t=1012.0289279000008, value=j, duration=37.10399200000029>
+1049.1464 	DATA 	Keypress: j
+1049.1580 	INFO 	Keyboard events cleared
+1049.1580 	EXP 	middle_image: autoDraw = False
+1049.1580 	EXP 	left_image: autoDraw = False
+1049.1580 	EXP 	right_image: autoDraw = False
+1049.1580 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1049.1580 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1049.1580 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shiftedgaze_R_15.png'
+1049.1580 	EXP 	middle_image: autoDraw = True
+1049.1580 	EXP 	left_image: autoDraw = True
+1050.0587 	EXP 	right_image: autoDraw = True
+1058.7585 	EXP 	Device response: <KeyPress from None: t=1058.756951200001, value=j, duration=None>
+1058.7588 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+1058.8465 	EXP 	Device response: <KeyPress from None: t=1017.285035500001, value=j, duration=41.543978399999105>
+1058.8476 	DATA 	Keypress: j
+1058.8578 	INFO 	Keyboard events cleared
+1058.8577 	EXP 	middle_image: autoDraw = False
+1058.8577 	EXP 	left_image: autoDraw = False
+1058.8577 	EXP 	right_image: autoDraw = False
+1058.8577 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1058.8577 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1058.8577 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1058.8577 	EXP 	middle_image: autoDraw = True
+1058.8577 	EXP 	left_image: autoDraw = True
+1059.7584 	EXP 	right_image: autoDraw = True
+1067.7752 	EXP 	Device response: <KeyPress from None: t=1067.765347800001, value=f, duration=None>
+1067.7756 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+1067.8628 	EXP 	Device response: <KeyPress from None: t=972.7729955000013, value=f, duration=95.07216039999912>
+1067.8639 	DATA 	Keypress: f
+1067.8733 	INFO 	Keyboard events cleared
+1067.8731 	EXP 	middle_image: autoDraw = False
+1067.8731 	EXP 	left_image: autoDraw = False
+1067.8731 	EXP 	right_image: autoDraw = False
+1067.8731 	EXP 	middle_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1067.8731 	EXP 	left_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1067.8731 	EXP 	right_image: image = 'D:\\thesis experiments\\almost finished12\\Stimuli\\ecc10neg\\shifteddirectgaze.png'
+1067.8731 	EXP 	middle_image: autoDraw = True
+1067.8731 	EXP 	left_image: autoDraw = True
+1068.7750 	EXP 	right_image: autoDraw = True
+1069.8253 	EXP 	Device response: <KeyPress from None: t=1069.8208869999999, value=j, duration=None>
+1069.8668 	DATA 	Keypress: j
+1069.8723 	EXP 	middle_image: autoDraw = False
+1069.8723 	EXP 	left_image: autoDraw = False
+1069.8723 	EXP 	right_image: autoDraw = False
+1069.8724 	EXP 	mogelijke versie adaptive staircase builder: status = STOPPED
+1072.8661 	INFO 	saved data to 'D:\\thesis experiments\\almost finished12\\data\\pilot4_mogelijke versie adaptive staircase builder_2026-04-02_16h28.50.038.csv'
+1074.9010 	INFO 	saved data to D:\thesis experiments\almost finished12\data\pilot4_mogelijke versie adaptive staircase builder_2026-04-02_16h28.50.038.psydat
+1074.9850 	INFO 	Stopping keyboard key buffers.
