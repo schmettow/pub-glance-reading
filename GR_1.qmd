@@ -6,33 +6,110 @@ format: html
 # Data reading
 
 ```{r}
+#! eval: false
 library(tidyverse)
 
 csv_files <- dir("data", pattern = "*.csv", full.names = T, recursive = T)
 
 read_gr <- function(f) {
-  read_csv(f) |> 
+  read_csv(f, show_col_types = FALSE) |> 
     filter(!is.na(xPos)) |> 
-    select(xPos, stimulusSet, whichImage, thisN, blockNumber, direction, angle, stimulus, response, correct, participant) |> 
-    mutate(blockNumber = as.factor(blockNumber))
-    
+    select(participant, xPos, stimulusSet, whichImage, thisN, blockNumber, direction, angle, stimulus, response, correct) |> 
+#    mutate(blockNumber = as.factor(blockNumber)) |> 
+    filter(!is.na(blockNumber))
 }
 
-D_0 <- csv_files |> map_df(read_gr)
+T_blocks <-
+  tibble(blockNumber = c(1,2,3),
+         eccentricity = c(5, 10, 15))
 
+
+D_0 <- 
+  csv_files |> 
+  map_df(read_gr)
+
+read_gr(csv_files[1])
+
+D_1 <- 
+  D_0 |> 
+  left_join(T_blocks, by = join_by(blockNumber)) |> 
+  mutate(Part = as.factor(participant)) |>
+  group_by(Part) |> 
+  mutate(trial = row_number()) |>
+  ungroup() |> 
+  select(Part, trial, angle, eccentricity, correct) |> 
+  bayr::as_tbl_obs()
+
+summary(D_1)
+
+save(D_0, D_1, file = "Data.Rda")
+```
+
+# Exploration
+
+```{r}
+D_1 |> 
+  group_by(Part, angle, eccentricity) |>
+  summarize(p_correct = mean(correct),
+            n_Obs = n()) |> 
+  ungroup() |> 
+  ggplot(aes(x = angle, color = as.factor(eccentricity), y = p_correct )) +
+  facet_wrap(~Part) +
+  geom_point() +
+  geom_line()
+  
+```
+
+
+# Modelling
+
+```{r}
+#| eval: false
+# devtools::install_github("schmettow/bayr")
+
+```
+
+
+```{r}
+library(tidyverse)
+library(brms)
+library(bayr)
+
+F_1 <- bf(
+  correct ~ 0.5 + (1 - 0.5 - inv_logit(zeta)) * inv_logit(exp(logdprime) * angle - criterion), 
+  logdprime ~ 1 + eccentricity + (1 + eccentricity | Part), 
+  bias ~ 1 + eccentricity + (1 + eccentricity | Part), 
+  lapse ~ 1 + (1 | Part), nl = TRUE
+)
+
+Priors_1 <- c(
+  set_prior("normal( 0, 1)", nlpar = "logdprime"),
+  set_prior("normal( 0, 0.5)", nlpar = "bias"),
+  set_prior("normal(-2.2, 0.6)", nlpar = "lapse")
+)
+
+M_1 <- brm(
+  F_1,
+  data = D_1,
+  family = bernoulli(link = "identity"),
+  prior = Priors_1,
+  chains = 8,
+  cores = 8,
+  iter = 2000,
+  warmup = 1000
+)
+
+save(M_1, D_1, file = "M_1")
 
 ```
 
 ```{r}
-D_0 |> 
-  group_by(participant, angle, blockNumber) |>
-  summarize(p_correct = mean(correct),
-            n_Obs = n()) |> 
-  ungroup() |> 
-  ggplot(aes(x = angle, color = blockNumber, y = n_Obs )) +
-  facet_wrap(~participant) +
-  geom_point() +
-  geom_line()
-  
+load("M_1")
+fixef(M_1)
+```
+
+```{r}
+PP_1 <- posterior_predict(M_1, nsamples = 1000) |> 
+  left_join()
 ```
 
