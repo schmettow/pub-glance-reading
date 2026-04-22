@@ -1,3 +1,7 @@
+# PsychoPy
+data/*.psydat
+data/*.log
+
 # History files
 .Rhistory
 .Rapp.history
