@@ -34,66 +34,90 @@ csv_files <- dir("data", pattern = "*.csv", full.names = T)
 read_gr <- function(f) {
   read_csv(f, show_col_types = FALSE) |> 
     filter(!is.na(xPos)) |> 
-    select(participant, xPos, stimulusSet, whichImage, thisN, blockNumber, direction, angle, stimulus, response, correct) |> 
-#    mutate(blockNumber = as.factor(blockNumber)) |> 
-    filter(!is.na(blockNumber))
+    filter(!is.na(blockNumber)) |> 
+    select(Part = participant, xPos, stimulusSet, whichImage, thisN, blockNumber, Direction = direction, angle, Stim = stimulus, response, correct) |> 
+    mutate(angle = if_else(Direction == "direct", 0, angle),
+           response = response == "j")
 }
 
+# T_blocks <-
+#   tibble(blockNumber = c(1:3,1:3),
+#          Direction = c(rep("left", each = 3), rep("right", each = 3)),
+#          eccentricity = c(5, 10, 15, 15, 10, 5)) # I noticed that Eccentricities may be reversed for left and right, but I am not sure. PLease, check that!
+
 T_blocks <-
-  tibble(blockNumber = c(1,2,3),
-         eccentricity = c(5, 10, 15))
+  tibble(blockNumber = c(1:3),
+         eccentricity = c(5, 10, 15)) 
 
 
 D_0 <- 
   csv_files |> 
-  map_df(read_gr)
+  map_df(read_gr) |> 
+  mutate(Part = as.factor(Part)) |>
+  group_by(Part) |> 
+  mutate(trial = row_number()) |>
+  ungroup()
 
 read_gr(csv_files[1])
 
 D_1 <- 
   D_0 |> 
   left_join(T_blocks, by = join_by(blockNumber)) |> 
-  mutate(Part = as.factor(participant)) |>
-  group_by(Part) |> 
-  mutate(trial = row_number()) |>
-  ungroup() |> 
-  select(Part, trial, angle, eccentricity, correct) |> 
+  mutate(Eccentricity = as.factor(eccentricity)) |> 
+  select(Part, trial, Eccentricity, eccentricity, Direction, angle, response, correct) |> 
   bayr::as_tbl_obs()
 
 summary(D_1)
 
-save(D_0, D_1, file = "Data.Rda")
+D_2 <- D_1 |> 
+  filter(Direction != "direct") |> 
+  mutate(correct = !response) |> 
+  bayr::as_tbl_obs()
+
+save(D_0, D_1, D_2, file = "Data.Rda")
 ```
+
+```{r}
+D_1 |> 
+  group_by(Direction) |> 
+  summarize(p_correct = mean(correct), n_Obs = n())
+```
+Importantly, the proportion of direct glances is around 33%. If participants are unaware of that Laplace Principle Insufficient Reason applies and the chance rate is 50%. However, we cannot exclude that participants learn the distribution of angles and adjust their strategy. Taken to an extreme, a participant responding only with No-Signal, chance level is only 33%. Therefore, the model must use a bias parameter.
+
+Another issue is that there never truly is a signal, as perfectly direct glance is just a singular point. By removing the direct gaze condition, we aree basically testing the threshold where participants perceive a glance as averted.
+
+This makes the model way more complex. Instead, we can remove the direct condition and use only the averted glances, which establishes a chance rate of 50% by design (D_2).
+D_2 also re-computes 'correct' from the responses.
+
 
 # Exploration
 
-The following plot shows the population level proportion of correct responses as a function of the angle and eccentricity. There is huge fluctuations with angles below 10 degree, which is due to the adaptive staircase procedure, which results in fewer observations for these angles. The tendency above 10 degree is 
+The following plot shows the population level proportion of correct responses as a function of the angle and eccentricity. There is huge fluctuations with angles below 10 degree, which is due to the adaptive staircase procedure, which results in fewer observations for these angles. Overall, the pattern is quite unintelligible and does not correspond with the hypothesis. What we see most likely is a form of Simpson's paradox (amnalgamation paradox).
 
 ```{r}
 #| fig-width: 8
 #| fig-height: 12
 
-T_1 <- D_1 |> 
+T_1 <- D_2 |> 
   summarize(p_correct = mean(correct),
             n_Obs = n(),
-            .by = c(angle, eccentricity))
+            .by = c(angle, Eccentricity, Direction))
   
 T_1 |> 
-  ggplot(aes(x = angle, color = as.factor(eccentricity), y = p_correct)) +
-  geom_point(aes(size = n_Obs )) +
-  geom_smooth(se = F, method = "loess")
+  ggplot(aes(x = angle, color = Eccentricity, y = p_correct)) +
+  facet_wrap(~Direction) +
+  geom_point(aes(size = n_Obs)) +
+  geom_smooth(se = F, method = "lm")
 
-
-  
 ```
 
-The figure below shows the proportion of correct responses as a function of the Angle (in three ranges) and eccentricity, separately for each participant.
+The figure below shows the proportion of correct responses as a function of the Angle (in three ranges) and eccentricity, separately for each participant. Here, the pattern is more in line with expectations.
 
 ```{r}
 #| fig-width: 8
 #| fig-height: 12
 
-D_1 |> 
+D_2 |> 
   mutate(Angle = case_when(
     angle < 10 ~ "0-10",
     angle < 15 ~ "10-15",
@@ -101,11 +125,10 @@ D_1 |>
   )) |>
   summarize(p_correct = mean(correct),
             n_Obs = n(),
-            .by = c(Part, Angle, eccentricity)) |> 
-  ggplot(aes(x = Angle, color = as.factor(eccentricity), y = p_correct)) +
-  facet_wrap(~Part) +
-  geom_point(aes(size = n_Obs), alpha = 0.5) +
-  geom_line(aes(group = eccentricity), alpha = 0.5)
+            .by = c(Part, Direction, Angle, Eccentricity)) |> 
+  ggplot(aes(x = Angle, color = Eccentricity, y = p_correct)) +
+  facet_wrap(Part~Direction) +
+  geom_point(aes(size = n_Obs), alpha = 0.5)
   
 ```
 
@@ -137,14 +160,12 @@ logit <- function(x) {
 pm_func <- function(x, dprime, lapse, bias, guess = 0.5) {
   guess + (1 - guess - lapse) * inv_logit(dprime * x - bias)
 }
-```
 
-```{r}
 tibble(
-  x = seq(-10, 10, length.out = 100),
-  y = pm_func(x, dprime = 0.5, lapse = 0.05, bias = 0.6)
+  angle = seq(0, 20, length.out = 100),
+  y = pm_func(-angle, dprime = 1.5, lapse = 0.05, bias = 0.6) # <- note the negative angle, because this is a decay process. 
 ) |> 
-  ggplot(aes(x, y)) +
+  ggplot(aes(angle, y)) +
   geom_line()
 ```
 
@@ -158,9 +179,13 @@ tibble(
 
 The lapse rate and decision bias are modeled as functions of the participant, but not of the eccentricity, because it is assumed to be a readout error that is independent of the stimulus. Dprime is modelled as a function of eccentricity.
 
+## Model building
+
+### Model 1
+
 Since we have no data at the upper end of performance, the lapse parameter cannot be estimated neither on  participant level nor on population level. In this experiment a bias cannot occur by design. Therefore, a much simplified model is used.
 
-```{r}
+```{r m_1}
 #| eval: false
 library(tidyverse)
 library(brms)
@@ -169,6 +194,7 @@ F_1 <- bf(
   correct ~ 0.5 + (1 - 0.5) * inv_logit(exp(dprime) * angle), 
   dprime ~ 1 + eccentricity + (1 + eccentricity | Part),
   #lapse ~ 1, 
+  #bias ~ 1,
   nl = TRUE
 )
 
@@ -180,9 +206,9 @@ Priors_1 <- c(
 
 M_1 <- brm(
   F_1,
-  data = D_1,
-  family = bernoulli(link = "identity"),
   prior = Priors_1,
+  family = bernoulli(link = "identity"),
+  data = D_1,
   chains = 8,
   cores = 8,
   iter = 3000,
@@ -194,37 +220,191 @@ save(M_1, D_1, file = "M_1.Rda")
 
 ```
 
-Here we extract the posterior samples. 
+### Model 2
+
++ Better handling of predictors
++ Using only averted stimuli (D_2) establishes a chance rate of 50% 
++ added Direction as predictor
+
+```{r m2}
+#| eval: false
+F_2 <- bf(
+  correct ~ 0.5 + (1 - 0.5) * inv_logit(exp(dprime)), # dprime on log scale
+  dprime ~ 1 + eccentricity + angle + (1 + eccentricity + angle | Part),
+  nl = TRUE
+)
+
+Priors_2 <- c(
+  set_prior("normal( 0, 1)", nlpar = "dprime") # log scale! exp(0) = 1
+)
+
+M_2 <- brm(
+  F_2,
+  prior = Priors_2,
+  family = bernoulli(link = "identity"),
+  data = D_2,
+  chains = 8,
+  cores = 8,
+  iter = 3000,
+  warmup = 2000,
+  control = list(adapt_delta = 0.99999999, max_treedepth = 12, init = "1")
+)
+
+save(M_2, D_2, file = "M_2.Rda")
+```
+
+### Model 3
+
++ individual biases (logit scale)
++ dprime on identity scale, with support for negative dprime
++ Direction as predictor for dprime
++ using averted conditions (D_2)
+
+```{r m3}
+#| eval: false
+F_3 <- bf(
+  #correct ~ inv_logit(logit(0.5) + bias) + (1 - inv_logit(logit(0.5) + bias)) * inv_logit(dprime),
+  correct ~ inv_logit(logit(0.5) + bias) +     # chance level
+            inv_logit(-(logit(0.5) + bias)) *  # rescaling
+            inv_logit(dprime),                 # psychometric function
+  dprime ~ 1 + eccentricity + angle + Direction + (1 + eccentricity + angle + Direction |Part),
+  bias ~ 1 + Direction + (1 + Direction |Part),
+  nl = TRUE
+)
+
+Priors_3 <- c(
+  set_prior("normal( 0, 2)", nlpar = "dprime"), # identity scale
+  set_prior("normal( 0, 0.5)", nlpar = "bias")  # logit scale
+)
+
+M_3 <- brm(
+  F_3,
+  prior = Priors_3,
+  family = bernoulli(link = "identity"),
+  data = D_2,
+  chains = 8,
+  cores = 8,
+  iter = 4000,
+  warmup = 2000,
+  control = list(adapt_delta = 0.99, max_treedepth = 11)
+)
+
+
+save(M_3, D_2, file = "M_3.Rda")
+```
+
+### Model 4
+
+Like M_3, but with conditional effects of angle/Direction for dprime.
+
+```{r m4}
+#| eval: false
+
+F_4 <- bf(
+  correct ~ inv_logit(logit(0.5) + bias) +     # chance level
+            inv_logit(-(logit(0.5) + bias)) *  # rescaling
+            inv_logit(dprime),                 # psychometric function
+  dprime ~ 1 + eccentricity + angle * Direction + (1 + eccentricity + angle * Direction |Part),
+  bias ~ 1 + Direction + (1 + Direction |Part),
+  nl = TRUE
+)
+
+Priors_4 <- c(
+  set_prior("normal( 0, 2)", nlpar = "dprime"), # identity scale
+  set_prior("normal( 0, 0.5)", nlpar = "bias")  # logit scale
+)
+
+M_4 <- brm(
+  F_4,
+  prior = Priors_4,
+  family = bernoulli(link = "identity"),
+  data = D_2,
+  chains = 8,
+  cores = 8,
+  iter = 4000,
+  warmup = 2000,
+  control = list(adapt_delta = 0.99, max_treedepth = 11)
+)
+
+IC_3 <- brms::loo(M_3)
+IC_4 <- brms::loo(M_4)
+
+save(M_4, D_2, IC_3, IC_4, file = "M_4.Rda")
+```
+
+Do we need the conditional effects? We use information criteria for model comparison
 
 ```{r}
+load("M_4.Rda")
+bayr::compare_IC(list(IC_3, IC_4))
+```
+
+Model 4 wins.
+
+
+### Model 5
+
+Same as Model 3, but with the full data set (indluding Direction  direct)
+
+```{r m5}
+#| eval: false
+
+M_5 <- brm(
+  F_3,
+  prior = Priors_3,
+  family = bernoulli(link = "identity"),
+  data = D_1, # <--
+  chains = 8,
+  cores = 8,
+  iter = 4000,
+  warmup = 2000,
+  control = list(adapt_delta = 0.9, max_tree_depth = 11)
+)
+
+
+save(M_5, D_1, file = "M_5.Rda")
+```
+
+
+
+## Model interpretation 
+
+```{r load-model}
 library(bayr)
-load("M_1.Rda")
-P_1 <- bayr::posterior(M_1)
+load("M_4.Rda")
+model <- M_4
+data <- D_2
+P_ <- bayr::posterior(model)
 
 ```
 
-This extracts the population-level parameters. Parameters are transformed back to their original scale. Note that by the back-transformation `dprime` is a *multiplicative* parameters.
+This figure shows the posterior distributions of population-level parameters on log level.
 
-```{r}
-fixef(P_1)
-```
-
-
-This figure shows the posterior distributions of population-level parameters.
-
-```{r}
-P_1 |> 
+```{r fixef-plot}
+P_ |> 
   filter(type == "fixef") |> 
   ggplot(aes(x = value, col = parameter)) +
-  facet_grid(~nonlin) +
+  facet_grid("nonlin") +
   geom_density()
 
 ```
 
 
-## Posterior predictions
+This extracts the population-level parameters. Parameters are transformed back to their original scale. 
+Note that by the back-transformation bias parameters are given as odds and are multiplicative. Dprime is on identity scale.
 
-```{r}
-PP_1 <- bayr::post_pred(M_1, ndraws = 1000)
+```{r fixef}
+fixef(P_)
 ```
+
+```{r grpef}
+grpef(P_)
+```
+
+```{r ranef}
+ranef(P_, mean.func = exp)
+```
+
+
+
 
